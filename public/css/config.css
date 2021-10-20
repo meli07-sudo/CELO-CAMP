@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Arlon Black";
+    src: url("./../policies/arlon/Arlon-Black.ttf");
+}
+@font-face {
+    font-family: "Arlon Bold";
+    src: url("./../policies/arlon/Arlon-Bold.ttf");
+}
+@font-face {
+    font-family: "Arlon Light";
+    src: url("./../policies/arlon/Arlon-Light.ttf");
+}
+@font-face {
+    font-family: "Arlon Medium";
+    src: url("./../policies/arlon/Arlon-Medium.ttf");
+}
+@font-face {
+    font-family: "Arlon Regular";
+    src: url("./../policies/arlon/Arlon-Regular.ttf");
+}
+@font-face {
+    font-family: "Arlon SemiBold";
+    src: url("./../policies/arlon/Arlon-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Arlon Thin";
+    src: url("./../policies/arlon/Arlon-Thin.ttf");
+}
+@font-face {
+    font-family: "Arlon UltraBold";
+    src: url("./../policies/arlon/Arlon-UltraBold.ttf");
+}
+@font-face {
+    font-family: "Arlon UltraLight";
+    src: url("./../policies/arlon/Arlon-UltraLight.ttf");
+}
+
+:root {
+    --title-color: #0c2e4a;
+    --general-color: #434343;
+    --animation-color: #00c0ff;
+}
+
+.arlon-black {
+    font-family: "Arlon Black";
+}
+.arlon-bold {
+    font-family: "Arlon Bold";
+}
+.arlon-light {
+    font-family: "Arlon Light";
+}
+.arlon-regular {
+    font-family: "Arlon Regular";
+}
+.arlon-thin {
+    font-family: "Arlon Thin";
+}
+.arlon-ultrabold {
+    font-family: "Arlon UltraBold";
+}
+.arlon-ultralight {
+    font-family: "Arlon UltraLight";
+}
+.arlon-medium {
+    font-family: "Arlon Medium";
+}
+.arlon-semibold {
+    font-family: "Arlon SemiBold";
+}
+
+.general-color {
+    color: var(--general-color);
+}
+.title-color {
+    color: var(--title-color);
+}
+.outline-none {
+    outline: none;
+}
