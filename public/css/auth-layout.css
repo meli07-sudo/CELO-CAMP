@@ -9,6 +9,14 @@ body {
   width: 100%;
   max-width: 27rem;
 }
+.sign-in-up-form span.text-danger.error-msg {
+  left: 1rem;
+  bottom: -1rem;
+  font-size: 0.8rem;
+}
+.sign-in-up-form .form-titles {
+  cursor: pointer;
+}
 .sign-in-up-form .form-titles h2 {
   border-bottom: 2px solid var(--title-color);
   opacity: 0.5;

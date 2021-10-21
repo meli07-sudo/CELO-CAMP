@@ -9,7 +9,14 @@ body {
     width: 100%;
     max-width: 27rem;
 
+    span.text-danger.error-msg {
+        left: 1rem;
+        bottom: -1rem;
+        font-size: 0.8rem;
+    }
+
     .form-titles {
+        cursor: pointer;
         h2 {
             border-bottom: 2px solid var(--title-color);
             opacity: 0.5;

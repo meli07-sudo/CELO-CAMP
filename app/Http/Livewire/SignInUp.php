@@ -2,7 +2,9 @@
 
 namespace App\Http\Livewire;
 
-use Illuminate\Support\Facades\Validator;
+use App\Http\Controllers\Auth\RegisteredUserController;
+use App\Providers\RouteServiceProvider;
+use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 
 class SignInUp extends Component
@@ -18,21 +20,34 @@ class SignInUp extends Component
 
     public function signIn()
     {
-        sleep(2);
         $this->validate([
             'email' => "required|email|max:50",
             'password' => "required|string|min:6",
         ]);
+
+        Auth::attempt([
+            "email"=>$this->email,
+            "password"=>$this->password,
+        ]);
+
+        redirect()->intended(RouteServiceProvider::HOME);
     }
     public function signUp()
     {
-        sleep(2);
         $this->validate([
-            'nom' => "required|email|max:50",
-            'prenom' => "required|email|max:50",
+            'nom' => "required|max:50",
+            'prenom' => "required|max:50",
             'email' => "required|email|max:50",
-            'tel' => "required|email|max:50",
-            'password' => "required|email|max:50|confirm",
+            'tel' => "required|max:50",
+            'password' => "required|max:50|confirmed",
+        ]);
+
+        RegisteredUserController::store([
+            'nom' => $this->nom,
+            'prenom' => $this->prenom,
+            'email' => $this->email,
+            'tel' => $this->tel,
+            'password' => $this->password,
         ]);
     }
 
