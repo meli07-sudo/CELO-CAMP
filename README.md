@@ -1,62 +1,148 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="https://k4ablockchain.com" target="_blank"><img src="https://github.com/Inosuke200/CELO-CAMP/blob/Ismael/public/images/blockchain.png" width="400"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    
+   **K4A Blockchain** une plateforme de E-learning dédiée à la formation sur la blockchain et la finance décentralisée à travers des MOOCS en cours de developpement par **K4A**, une start up orientée innovation, qui vise à apporter la prospérité et le développement durable en Afrique à travers l’éducation notamment l’éducation aux nouvelles technologies.
+    
+   ###  Les services ou produits vendus
+    
+ - Formation orientées métier et compétences
+    
+ - Solutions Ed Tech (Educational Technology) et E-learning
+    
+ - Business development educatif
+    
+ - Evénementiel (conférences, forums etc)
+    
+ - Consulting
+    
+ - Recrutements
+
+.
 </p>
 
-## About Laravel
+## Contexte et définition du problème
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Au regard du taux d’inclusion financière très faible en Afrique de l’Ouest et de la dynamique de Celo faisant la promotion d’un écosystème favorisant la prospérité pour tous à travers la finance décentralisée, nous avons eu l’idée de créer cette plateforme.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+En effet, la blockchain et la finance décentralisées ainsi que ses applications sont encore méconnues au Burkina Faso et en Afrique de l’Ouest. Or, il s’agit d’une énorme révolution technologiques offrant des possibilités énormes.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Étant donné que l’ignorance est l’une des principales causes de la pauvreté et de la faible inclusion financière, notre cheval de bataille est celui de permettre à notre communauté de s’éduquer avant de prospérer parce que le savoir est notre plus grand capital.
 
-## Learning Laravel
+## Objectif du projet
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Nous voulons favoriser :
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1.L’inclusion financière en priorisant l’éducation à la finance décentralisée.
 
-## Laravel Sponsors
+2.La réduction de la pauvreté à travers la création de nouvelles sources de revenus grâce à la finance décentralisée.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+3.La formation de développeurs spécialisés sur la blockchain.
 
-### Premium Partners
+4.La promotion des plateformes développées via la blockchain.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+5.L’implémentation de solutions DEFI et de la blockchain dans le processus de digitalisation des business en Afrique de l’Ouest en vue de booster leur chiffre d’affaires.
 
-## Contributing
+6.L’autonomisation des jeunes à travers la possibilité de faire fructifier leur épargne.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+7.La vulgarisation et la démystification de la finance décentralisée.
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Périmètre 
 
-## Security Vulnerabilities
+Public cible : 
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Etudiants
+
+- Startup du numérique en Afrique de l’Ouest et du monde
+
+- Développeurs Web
+
+- Investisseurs
+
+
+## Les langages de programmation utilisée actuellement
+
+1. **Front-end**
+
+- [Javascript](https://www.javascript.com/)
+- [Ajax](https://web.iamvdo.me/js/ajax/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Jquery](https://jquery.com/)
+- [Particule Js](https://particles.js.org/)
+
+2. **Back-end**
+
+- [Laravel](https://laravel.com/)
+
+3. **Systeme de Gestion de Base de donnees**
+
+- [MySQL](https://www.mysql.com/fr/)
+
+## Hébergeur utilisé
+
+- **Hostinger**
+
+## Les moyens de paiement 
+
+- Celo, cUSD , cEUR, VISA.
+
+## Les plugins/package utilisés
+
+- Laratrust
+
+## La charte graphique 
+
+- Titres : 0c2e4a
+
+- Texte en général : 434343, fffff
+
+- Couleur de fond pour les effets d'animation : 00c0ff
+
+- Polices : Poppins , fantaisie Z003 italique
+
+## Le contenu de la plateforme 
+
+La plateforme proposera essentiellement :
+
+1. des formations à distance (MOOC) axées sur la technologie Blockchain.
+2. contenu média  : images, livres numériques et médias audiovisuels.
+
+## Les fonctionnalités majeures
+
+1. Système de gestion de compte & des rôles
+2. Système des gestion des actions utilisateurs
+3. Gestion des formations
+4. Forum Africa Defi Community
+5. Espace partenaires
+6. Gestion des abonnement
+7. Gestion des bonus
+8. Système de consulting
+9. Events
+10. Newsletter
+
+## Membres de l'équipe
+
+   ### Service Administratif
+   
+        - [SOMDA Azaviel ] (https://www.linkedin.com/in/azaviel-s-a5720215a/),Legal officer
+        
+        
+        - [Abdoul Rachid SAWADOGO] (https://www.linkedin.com/in/abdoul-rachid-sawadogo-94a343202/), Business developper
+        
+        
+        - [Sylvain KOAMA] (https://www.linkedin.com/in/sylvain-koama-077950186/), Business law & digital learner
+        
+        
+        - [Mariam SAVADOGO] (https://www.linkedin.com/in/mariam-savadogo-617369203/), Digital Marketing Strategist and business developer
+        
+   ### Servive Informatique
+   
+        - [OUIYA Ismael] (https://www.linkedin.com/in/isma%C3%ABl-ouiya-293bba1a4/), Web and mobile web developer
+        
+        
+        - [ZOUBA Jean- Francois] (https://www.linkedin.com/in/jeanfrancois-zouba-a0a6481bb/),  Web and mobile web developer
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+K4A Blochain est un logiciel open-source.
