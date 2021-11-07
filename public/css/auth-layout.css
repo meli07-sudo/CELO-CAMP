@@ -5,6 +5,10 @@ body {
   color: var(--general-color);
 }
 
+.sign-in-up-wrapper:last-child #logo-blockchain {
+  width: 80%;
+}
+
 .sign-in-up-form {
   width: 100%;
   max-width: 27rem;
@@ -36,6 +40,20 @@ body {
 .sign-in-up-form div.input-field-container i.fas.fa-eye-slash {
   right: 1.4rem;
   left: unset;
+}
+
+.socialities ul li a {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.socialities ul li:first-child a {
+  color: #DE463B;
+}
+.socialities ul li:nth-child(2) a {
+  background-color: #0d6efd;
+}
+.socialities ul li:last-child a {
+  background-color: black;
 }
 
 /*# sourceMappingURL=auth-layout.css.map */

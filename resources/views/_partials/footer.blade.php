@@ -8,7 +8,7 @@
                 <img src="./images/logo.png" alt="Logo K4A Blockchain" width="60">
               </a>
             </h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <p>K4A Blockchain une plateforme de E-learning dédiée à la formation sur la blockchain et la finance décentralisée à travers des MOOCS</p>
             <ul class="ftco-footer-social list-unstyled mt-2">
               <li><a href="#"><span class="fa fa-twitter"></span></a></li>
               <li><a href="#"><span class="fa fa-facebook"></span></a></li>

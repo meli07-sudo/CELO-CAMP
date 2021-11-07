@@ -10,13 +10,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
-                <li class="nav-item"><a class="nav-link" href="courses.html">Cours</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
-                <li class="nav-item"><a class="nav-link" href="team.html">L'équipe</a></li>
+                <li class="nav-item"><a class="nav-link active" href="{{route('homepage')}}">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('courses')}}">Cours</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('about')}}">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route("equipe")}}">L'équipe</a></li>
                 <li class="nav-item"><a class="nav-link" href="pricing.html">Prix</a></li>
                 <li class="nav-item"><a class="nav-link" href="blog.html">Forum</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contactez-nous</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contactez-nous</a></li>
             </ul>
         </div>
     </div>

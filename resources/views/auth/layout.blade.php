@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('font-awasome/css/all.min.css')}}">
     <link rel="stylesheet" href="{{asset("css/auth-layout.css")}}">
+    <link rel="shortcut icon" href="{{asset('images/blockchain.png')}}" type="image/x-icon">
     @livewireStyles
     @yield("styles")
     <title>K4A Blockhain | Authentification</title>

@@ -5,6 +5,14 @@ body {
     color: var(--general-color);
 }
 
+.sign-in-up-wrapper {
+    &:last-child {
+        #logo-blockchain {
+            width: 80%;
+        }
+    }
+}
+
 .sign-in-up-form {
     width: 100%;
     max-width: 27rem;
@@ -41,5 +49,20 @@ body {
             right: 1.4rem;
             left: unset;
         }
+    }
+}
+.socialities{
+    ul li a{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    ul li:first-child a{
+        color: #DE463B;
+    }
+    ul li:nth-child(2) a{
+        background-color: #0d6efd;
+    }
+    ul li:last-child a{
+        background-color: black;
     }
 }

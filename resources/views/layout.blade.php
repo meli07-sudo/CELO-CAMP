@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('font-awasome/css/all.min.css') }}">
+    <link rel="shortcut icon" href="{{ asset('images/blockchain.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
@@ -15,12 +17,13 @@
     <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     @yield("styles")
-    <title>@yield("title-page",config("app.name")) | {{config("app.name")}}</title>
+    <title>@yield("title-page",config("app.name")) | {{ config('app.name') }}</title>
 </head>
+
 <body>
-@include('_partials.header')
-@yield("main-content")
-@include("_partials.footer")
+    @include('_partials.header')
+    @yield("main-content")
+    @include("_partials.footer")
     <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('js/tiny-slider.js') }}"></script>
@@ -31,4 +34,5 @@
     <script src="{{ asset('js/main.js') }}"></script>
     @yield("scripts")
 </body>
+
 </html>
