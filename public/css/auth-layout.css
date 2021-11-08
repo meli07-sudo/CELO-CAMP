@@ -1,0 +1,41 @@
+@import url("/css/config.css");
+body {
+  background-color: #f2f2f2;
+  font-family: "Arlon Regular";
+  color: var(--general-color);
+}
+
+.sign-in-up-form {
+  width: 100%;
+  max-width: 27rem;
+}
+.sign-in-up-form span.text-danger.error-msg {
+  left: 1rem;
+  bottom: -1rem;
+  font-size: 0.8rem;
+}
+.sign-in-up-form .form-titles {
+  cursor: pointer;
+}
+.sign-in-up-form .form-titles h2 {
+  border-bottom: 2px solid var(--title-color);
+  opacity: 0.5;
+  background: #8080805e;
+}
+.sign-in-up-form .form-titles h2.active {
+  opacity: 1;
+  background: unset;
+}
+.sign-in-up-form div.input-field-container i.fas {
+  left: 1.4rem;
+  top: 0.6rem;
+  font-size: 1.3rem;
+  opacity: 0.5;
+}
+.sign-in-up-form div.input-field-container i.fas.fa-eye,
+.sign-in-up-form div.input-field-container i.fas.fa-eye-slash {
+  right: 1.4rem;
+  left: unset;
+}
+
+/*# sourceMappingURL=auth-layout.css.map */

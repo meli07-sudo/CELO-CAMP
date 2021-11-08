@@ -43,19 +43,19 @@
     </div>
     <nav class="navbar navbar-expand-lg  ftco-navbar-light" style="margin-top: 2em;">
 		  <div class="container-xl">
-             <a href="#" class="btn-custom order-lg-last">Obtenir un Certificat</a>
+             <a href="#" class="btn-custom order-lg-last">GET A CERTIFICATE</a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="fa fa-bars"></span> Menu
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
-                <li class="nav-item"><a class="nav-link" href="courses.html">Cours</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">A propos</a></li>
-                <li class="nav-item"><a class="nav-link" href="team.html">Equipe</a></li>
-                <li class="nav-item"><a class="nav-link" href="pricing.html">Tarifs</a></li>
-		        <li class="nav-item"><a class="nav-link" href="blog.html">Journal</a></li>
-		        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html">Price</a></li>
+		        <li class="nav-item"><a class="nav-link" href="blog.html">Forum</a></li>
+		        <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
 		      </ul>
 		    </div>
 		  </div>
@@ -88,7 +88,7 @@
                 </ul>
               </div>
               <div class="text">
-                <h3>Abdoul Rachid SAWADOGO</h3>
+                <h3>Rachid  Alain </h3>
                 <span class="position">Business developper</span>
               </div>
             </div>
@@ -104,7 +104,7 @@
                 </ul>
               </div>
               <div class="text">
-                <h3> Azaviel SOMDA</h3>
+                <h3> Azaviel Scott</h3>
                 <span class="position">Legal officer</span>
               </div>
             </div>
@@ -120,7 +120,7 @@
                 </ul>
               </div>
               <div class="text">
-                <h3>Sylvain KOAMA</h3>
+                <h3>Sylvain Alamine</h3>
                 <span class="position">Business law & digital learner</span>
               </div>
             </div>
@@ -169,7 +169,7 @@
                 </ul>
               </div>
               <div class="text">
-                <h3>Mariam SAVADOGO</h3>
+                <h3>Mariam Ali</h3>
                 <span class="position"> Digital Marketing Strategist and business developer</span>
               </div>
             </div>
@@ -185,7 +185,7 @@
                 </ul>
               </div>
               <div class="text">
-                <h3>Jean- Francois ZOUBA </h3>
+                <h3>Jean- Francois Marie </h3>
                 <span class="position">Web and mobile web developer</span>
               </div>
             </div>
@@ -201,7 +201,7 @@
                 </ul>
               </div>
               <div class="text">
-                <h3>Ismael OUIYA </h3>
+                <h3>Ismael Mattheo</h3>
                 <span class="position">Web and mobile web developer</span>
               </div>
             </div>
@@ -268,13 +268,13 @@
           <div class="col-lg-10">
             <div class="row g-lg-5">
               <div class="col-md-7 text-lg-right">
-                <h2 class="mb-0">Newsletter - Restez à l'écoute et obtenez la dernière mise à jour</h2>
-                <p>Très loin, derrière le mot montagnes</p>
+                <h2 class="mb-0">Newsletter - Stay tune and get the latest update</h2>
+                <p>Far far away, behind the word mountains</p>
               </div>
               <div class="col-md-5 border-left d-flex align-items-center">
                 <form action="#" class="subscribe-form">
                   <div class="form-group d-flex align-items-center">
-                    <input type="text" class="form-control" placeholder="Entrez l'adresse e-mail">
+                    <input type="text" class="form-control" placeholder="Enter email adress">
                     <a href="#" class="btn-icon"><span class="fa fa-paper-plane"></span></a>
                   </div>
                 </form>
@@ -295,7 +295,7 @@
                     <img src="./images/blockchain.png" alt="Logo K4A Blockchain" width="80">
                 </a>
               </h2>
-              <p>K4A Blockchain une plateforme de E-learning dédiée à la formation sur la blockchain et la finance décentralisée à travers des MOOCS.</p>
+              <p>K4A Blockchain an E-learning platform dedicated to training on blockchain and decentralized finance through MOOCS.</p>
               <ul class="ftco-footer-social list-unstyled mt-2">
                 <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                 <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -307,11 +307,11 @@
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Explore</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>About Us</a></li>
-                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Services</a></li>
+                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Home</a></li>
                 <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Courses</a></li>
-                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Blog</a></li>
-                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Contact us</a></li>
+                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>About</a></li>
+                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Team</a></li>
+                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Forum</a></li>
               </ul>
             </div>
           </div>
@@ -322,8 +322,8 @@
                 <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Contact Us</a></li>
                 <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Pricing</a></li>
                 <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Terms &amp; Conditions</a></li>
-                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Privacy</a></li>
-                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Feedbacks</a></li>
+                {{-- <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Privacy</a></li>
+                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Feedbacks</a></li> --}}
               </ul>
             </div>
           </div>
@@ -367,7 +367,7 @@
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><span class="icon fa fa-map marker"></span><span class="text">Ouagadougou, Avenue Kwamé N'kruma</span></li>
+                  <li><span class="icon fa fa-map marker"></span><span class="text">	Ouagadougou, Bassawarga Avenue.</span></li>
                   <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+226 60 18 54 25</span></a></li>
                   <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@knowledgeforafrica.com</span></a></li>
                 </ul>
@@ -380,7 +380,7 @@
       	<div class="container-xl">
       		<div class="row">
 	          <div class="col-md-12 text-center">
-	            <p class="mb-0" style="font-size: 14px;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés | Une solution <i class="fa fa-heart color-danger" aria-hidden="true"></i> de <a href="https://knowledgeforafrica.com" target="_blank" rel="nofollow noopener">Knowledge For Africa</a></p>
+	            <p class="mb-0" style="font-size: 14px;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | A solution <i class="fa fa-heart color-danger" aria-hidden="true"></i> of <a href="https://knowledgeforafrica.com" target="_blank" rel="nofollow noopener">Knowledge For Africa</a></p>
 	          </div>
 	        </div>
       	</div>
