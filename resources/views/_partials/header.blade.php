@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md col-xl-5 d-flex align-items-center">
                 <a class="navbar-brand align-items-center" href="index.html">
-                    <img src="./images/blockchain.png" alt="Logo K4A Blockchain" width="60">
+                    <img src="{{asset('images/blockchain.png')}}" alt="Logo K4A Blockchain" width="60">
                 </a>
             </div>
             <div class="col-md d-flex justify-content-end align-items-center">

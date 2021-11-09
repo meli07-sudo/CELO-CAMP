@@ -5,10 +5,10 @@
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2 logo d-flex">
                 <a class="navbar-brand align-items-center" href="index.html">
-                <img src="./images/blockchain.png" alt="Logo K4A Blockchain" width="60">
+                <img src="{{asset('images/blockchain.png')}}" alt="Logo K4A Blockchain" width="60">
               </a>
             </h2>
-            <p>K4A Blockchain une plateforme de E-learning dédiée à la formation sur la blockchain et la finance décentralisée à travers des MOOCS</p>
+            <p>K4A Blockchain une plateforme de E-learning dédiée à la formation sur la blockchain et la finance décentralisée à travers des MOOCs</p>
             <ul class="ftco-footer-social list-unstyled mt-2">
               <li><a href="#"><span class="fa fa-twitter"></span></a></li>
               <li><a href="#"><span class="fa fa-facebook"></span></a></li>

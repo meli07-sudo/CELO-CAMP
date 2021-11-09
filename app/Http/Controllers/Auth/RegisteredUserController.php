@@ -18,7 +18,7 @@ class RegisteredUserController extends Controller
     public static function store(array $userInfo)
     {
         $user = User::create([
-            "name" => $userInfo['nom'],
+            "nom" => $userInfo['nom'],
             "prenom" => $userInfo['prenom'],
             "email" => $userInfo['email'],
             "tel" => $userInfo['tel'],

@@ -1,6 +1,6 @@
 @extends("layout")
 
-@section("title-page","Cours")
+@section("title-page","Cours de ".$courses[0]->category->title)
 
 @section("main-content")
 <section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('images/bg_2.jpg')}}');">
@@ -9,7 +9,7 @@
       <div class="row no-gutters slider-text align-items-center justify-content-center">
         <div class="col-md-9 pt-5 mt-5 text-center">
           <p class="breadcrumbs"><span class="me-2"><a href="index.html">Accueil <i class="fa fa-chevron-right"></i></a></span> <span>Cours <i class="fa fa-chevron-right"></i></span></p>
-          <h1 class="mb-0 bread">Parcourez les cours</h1>
+          <h1 class="mb-0 bread">Cours de <span class="text-capitalize text-white">{{$courses[0]->category->title}}</span></h1>
         </div>
       </div>
     </div>
@@ -70,12 +70,12 @@
                 <div class="col-md-3 col-xl-2 text-center d-flex align-items-stretch category-item" data-aos="fade-up"
                 data-aos-delay="100" data-aos-duration="1000">
                 <a href="{{route('courses.by.cat',["category_id"=>$category->id])}}" class="services-2">
-                  <div class="icon"><img src="{{asset($category->icon)}}" alt="{{$category->title}}"></div>
-                  <div class="text">
-                      <h2 class="d-flex justify-content-center align-items-center">{{$category->title}}</h2>
-                      <span class="position-absolute">{{$category->courses()->count()}}</span>
-                  </div>
-              </a>
+                    <div class="icon"><img src="{{asset($category->icon)}}" alt="{{$category->title}}"></div>
+                    <div class="text">
+                        <h2 class="d-flex justify-content-center align-items-center">{{$category->title}}</h2>
+                        <span class="position-absolute">{{$category->courses()->count()}}</span>
+                    </div>
+                </a>
             </div>
                 @endforeach
                 

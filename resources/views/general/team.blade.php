@@ -23,10 +23,10 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-1.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
@@ -39,10 +39,10 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-2.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
@@ -55,10 +55,10 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-3.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
@@ -104,10 +104,10 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-4.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
@@ -120,10 +120,10 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-5.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
@@ -136,10 +136,10 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-6.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
@@ -152,7 +152,7 @@
   </div>
 </section>
 
-<section class="ftco-section-counter img" style="background-image: url(images/bg_3.jpg);">
+{{-- <section class="ftco-section-counter img" style="background-image: url(images/bg_3.jpg);">
   <div class="overlay"></div>
   <div class="container">
     <div class="row section-counter">
@@ -202,5 +202,5 @@
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 @endsection

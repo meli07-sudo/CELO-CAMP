@@ -1,10 +1,4 @@
 @import url("/css/config.css");
-body {
-  background-color: #f2f2f2;
-  font-family: "Arlon Regular";
-  color: var(--general-color);
-}
-
 .sign-in-up-wrapper:last-child #logo-blockchain {
   width: 80%;
 }
@@ -43,8 +37,8 @@ body {
 }
 
 .socialities ul li a {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3rem;
+  height: 3rem;
 }
 .socialities ul li:first-child a {
   color: #DE463B;

@@ -690,6 +690,9 @@ textarea.form-control {
 			background: $light;
 			padding: 5px;
 			border-radius: 4px;
+			bottom: -1rem;
+			left: 50%;
+			transform: translate(-50%,-50%);
 		}
 	}
 	&:hover, &.active{
@@ -1373,6 +1376,7 @@ textarea.form-control {
 	background: $white;
 	padding: 30px 30px 40px 30px;
 	margin-bottom: 20px;
+	min-height: 20rem;
 	@include transition(.3s);
 
 	@include media-breakpoint-down(xl){
@@ -1987,5 +1991,19 @@ textarea.form-control {
 .category-item{
 	img{
 		width: 6rem;
+	}
+}
+.courses {
+	.icon img{
+		width: 3.7rem;
+	}
+}
+.description.d-flex{
+
+	.img{
+		
+		img{
+			height: 25rem;
+		}
 	}
 }

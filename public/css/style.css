@@ -11297,6 +11297,9 @@ textarea.form-control {
   background: #f8f8f8;
   padding: 5px;
   border-radius: 4px;
+  bottom: -1rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .services-2:hover, .services-2.active {
   background: #00c0ff;
@@ -11924,6 +11927,7 @@ textarea.form-control {
   background: #fff;
   padding: 30px 30px 40px 30px;
   margin-bottom: 20px;
+  min-height: 20rem;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -12506,6 +12510,14 @@ textarea.form-control {
 
 .category-item img {
   width: 6rem;
+}
+
+.courses .icon img {
+  width: 3.7rem;
+}
+
+.description.d-flex .img img {
+  height: 25rem;
 }
 
 /*# sourceMappingURL=style.css.map */
