@@ -4,6 +4,8 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Http\Controllers\Auth\RegisteredUserController;
+use App\Models\Role;
+use Illuminate\Database\Eloquent\Collection;
 
 class SignUp extends Component
 {
@@ -11,6 +13,8 @@ class SignUp extends Component
     public string $prenom = "";
     public string $email = "";
     public string $tel = "";
+    public string $role = "";
+    public $roles = "";
     public string $password = "";
     public string $password_confirmation = "";
 
@@ -22,6 +26,7 @@ class SignUp extends Component
             'nom' => "bail|required|max:50|min:1",
             'prenom' => "bail|required|max:50|min:1",
             'tel' => "bail|nullable|max:50|min:8",
+            "role"=>"required"
         ], [
             "required" => ":attribute est requis(e).",
             "email" => ":attribute est invalide.",
@@ -34,6 +39,7 @@ class SignUp extends Component
             "nom" => "Le nom",
             "prenom" => "Le prénom",
             "tel" => "Le numéro de téléphone",
+            "role"=>"Le role"
         ]);
 
         RegisteredUserController::store([
@@ -42,7 +48,12 @@ class SignUp extends Component
             'email' => $this->email,
             'tel' => $this->tel,
             'password' => $this->password,
+            'role' => $this->role,
         ]);
+    }
+
+    public function mount(){
+        $this->roles=Role::where("id",">","1")->get();
     }
 
     public function render()

@@ -1,11 +1,12 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', "index")->name("homepage");
-Route::view('/cours', "index")->name("courses");
-Route::view('/apropos', "index")->name("about");
-Route::view('/contact', "index")->name("contact");
+Route::get('/',[HomeController::class,"index"])->name("homepage");
+Route::view('/cours', "general.courses")->name("courses");
+Route::view('/apropos', "general.about")->name("about");
+Route::view('/contact', "general.contacts")->name("contact");
 
 Route::get('teams', 'App\Http\Controllers\TeamController@team')->name('equipe');
 

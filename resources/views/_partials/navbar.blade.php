@@ -14,8 +14,8 @@
                 <li class="nav-item"><a class="nav-link" href="{{route('courses')}}">Cours</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('about')}}">À propos</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route("equipe")}}">L'équipe</a></li>
-                <li class="nav-item"><a class="nav-link" href="pricing.html">Prix</a></li>
-                <li class="nav-item"><a class="nav-link" href="blog.html">Forum</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html">Nos offres</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">African Defi Community</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contactez-nous</a></li>
             </ul>
         </div>

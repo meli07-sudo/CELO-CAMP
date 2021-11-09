@@ -15,13 +15,16 @@
     <link rel="stylesheet" href="{{ asset('css/glightbox.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset("css/config.css") }}">
     @yield("styles")
     <title>@yield("title-page",config("app.name")) | {{ config('app.name') }}</title>
 </head>
 
 <body>
     @include('_partials.header')
+    @include("_partials.navbar")
     @yield("main-content")
+    @include("_partials.newsletter")
     @include("_partials.footer")
     <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>

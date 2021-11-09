@@ -11,7 +11,7 @@ $black: #000000;
 $darken: #111111;
 $light: #f8f8f8;
 
-$primary: #1eb2a6;
+$primary: #00c0ff;
 $secondary: #fd5c64;
 
 @mixin transition($transition) {
@@ -1982,5 +1982,10 @@ textarea.form-control {
 				font-style: italic;
 			}
 		}
+	}
+}
+.category-item{
+	img{
+		width: 6rem;
 	}
 }

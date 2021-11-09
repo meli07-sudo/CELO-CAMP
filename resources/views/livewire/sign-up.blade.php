@@ -31,6 +31,22 @@
             <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
         @enderror
     </div>
+
+
+    <div class="input-field-container position-relative my-3 px-5">
+        <div class="d-flex justify-content-evenly align-items-center">
+            <span class="fw-bold ml-0">Vous êtes<span class="fs-6 text-danger">*</span> ? </span>
+            @foreach ($roles as $role)
+                <div class="d-flex flex-column align-items-center justify-center">
+                    <label class="cursor-pointer" for="{{$role->id}}">{{$role->display_name}}</label>
+                    <input wire:model.defer="role" @if($role->id == 2) checked @endif value="{{$role->id}}" checked type="radio" name="role" id="{{$role->id}}">
+                </div>
+            @endforeach
+        </div>
+        @error('role')
+            <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
+        @enderror
+    </div>
     <div class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
         <i class="fas fa-key position-absolute"><span class="fs-6 text-danger">*</span></i>
         <i class="fas fa-eye position-absolute"></i>
@@ -40,6 +56,9 @@
             <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
         @enderror
     </div>
+
+
+
     <div class="input-field-container position-relative rounded-pill px-5 bg-white my-3">
         <i class="fas fa-lock position-absolute"><span class="fs-6 text-danger">*</span></i>
         <i class="fas fa-eye position-absolute"></i>

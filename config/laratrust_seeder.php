@@ -13,13 +13,13 @@ return [
 
     'roles_structure' => [
         'admin' => [
-            'learner' => 'c,r,u,d',
-            'teacher' => 'c,r,u,d',
+            'apprenant' => 'c,r,u,d',
+            'formateur' => 'c,r,u,d',
         ],
-        'teacher' => [
+        'formateur' => [
             'course' => 'c,r,u,d',
         ],
-        'learner' => [
+        'apprenant' => [
             'profile' => 'r,u',
         ],
     ],

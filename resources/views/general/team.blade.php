@@ -16,7 +16,6 @@
     </div>
   </div>
 </section>
-
 <section class="ftco-section">
   <div class="container">
     <div class="row">
@@ -24,14 +23,14 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-1.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
-            <h3>Abdoul Rachid SAWADOGO</h3>
+            <h3>Rachid  Alain </h3>
             <span class="position">Business developper</span>
           </div>
         </div>
@@ -40,14 +39,14 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-2.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
-            <h3> Azaviel SOMDA</h3>
+            <h3> Azaviel Scott</h3>
             <span class="position">Legal officer</span>
           </div>
         </div>
@@ -56,14 +55,14 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-3.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
-            <h3>Sylvain KOAMA</h3>
+            <h3>Sylvain Alamine</h3>
             <span class="position">Business law & digital learner</span>
           </div>
         </div>
@@ -105,14 +104,14 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-4.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
-            <h3>Mariam SAVADOGO</h3>
+            <h3>Mariam Ali</h3>
             <span class="position"> Digital Marketing Strategist and business developer</span>
           </div>
         </div>
@@ -121,14 +120,14 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-5.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
-            <h3>Jean- Francois ZOUBA </h3>
+            <h3>Jean- Francois Marie </h3>
             <span class="position">Web and mobile web developer</span>
           </div>
         </div>
@@ -137,14 +136,14 @@
         <div class="staff">
           <div class="img" style="background-image: url(images/team-6.png);">
             <ul class="ftco-social">
-              <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fab fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
             </ul>
           </div>
           <div class="text">
-            <h3>Ismael OUIYA </h3>
+            <h3>Ismael Mattheo</h3>
             <span class="position">Web and mobile web developer</span>
           </div>
         </div>
@@ -198,29 +197,6 @@
           <div class="text">
             <h2 class="number"><span class="countup">587</span></h2>
             <span class="caption">Courses</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="ftco-intro py-5 bg-primary">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="col-lg-10">
-        <div class="row g-lg-5">
-          <div class="col-md-7 text-lg-right">
-            <h2 class="mb-0">Newsletter - Restez à l'écoute et obtenez la dernière mise à jour</h2>
-            <p>Très loin, derrière le mot montagnes</p>
-          </div>
-          <div class="col-md-5 border-left d-flex align-items-center">
-            <form action="#" class="subscribe-form">
-              <div class="form-group d-flex align-items-center">
-                <input type="text" class="form-control" placeholder="Entrez l'adresse e-mail">
-                <a href="#" class="btn-icon"><span class="fa fa-paper-plane"></span></a>
-              </div>
-            </form>
           </div>
         </div>
       </div>

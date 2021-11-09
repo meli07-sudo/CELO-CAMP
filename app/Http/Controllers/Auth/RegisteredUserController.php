@@ -25,6 +25,7 @@ class RegisteredUserController extends Controller
             "password" => bcrypt($userInfo['password']),
         ]);
 
+        $user->attachRole($userInfo["role"]);
         event(new Registered($user));
 
 

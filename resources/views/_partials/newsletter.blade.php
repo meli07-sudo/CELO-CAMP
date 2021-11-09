@@ -4,7 +4,7 @@
             <div class="col-lg-10">
                 <div class="row g-lg-5">
                     <div class="col-md-7 text-lg-right">
-                        <h2 class="mb-0">Newsletter - Demeurez à jour sur nos actualités</h2>
+                        <h2 class="mb-0">Demeurez à jour sur nos actualités</h2>
                         <p>Recevez les actualités concernant nos contenus</p>
                     </div>
                     <div class="col-md-5 border-left d-flex align-items-center">
