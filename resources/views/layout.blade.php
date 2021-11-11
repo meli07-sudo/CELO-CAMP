@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset("css/config.css") }}">
+    @livewireStyles()
     @yield("styles")
     <title>@yield("title-page",config("app.name")) | {{ config('app.name') }}</title>
 </head>
@@ -34,6 +35,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="{{ asset('js/google-map.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+    @livewireScripts()
     @yield("scripts")
 </body>
 </html>

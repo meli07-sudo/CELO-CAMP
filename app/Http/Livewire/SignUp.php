@@ -33,6 +33,7 @@ class SignUp extends Component
             "max" => ":attribute ne doit pas dépasser :max caractères.",
             "min" => ":attribute doit contenir au moins :min caractères.",
             "confirmed" => "Les mots de passe ne correspondent pas.",
+            "unique" => "Cette adresse e-mail existe déja.",
         ], [
             "email" => "L'adresse e-mail",
             "password" => "Le mot de passe",

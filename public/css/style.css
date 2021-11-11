@@ -12519,5 +12519,10 @@ textarea.form-control {
 .description.d-flex .img img {
   height: 25rem;
 }
+.description.d-flex form .error-msg {
+  left: 1rem;
+  bottom: -1rem;
+  font-size: 0.8rem;
+}
 
 /*# sourceMappingURL=style.css.map */
