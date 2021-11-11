@@ -1,5 +1,6 @@
-<div>
-    <div class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
+<form>
+    @csrf
+    <div wire:submit.prevent="" class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
         <i class="fas fa-user position-absolute"><span class="fs-6 text-danger">*</span></i>
         <input value="{{ old('nom') }}" wire:model.defer="nom" placeholder="Nom"
             class="w-100 p-2 outline-none border-0 bg-transparent" type="text" required maxlength="50">
@@ -70,9 +71,9 @@
         @enderror
     </div>
     <div class="d-flex justify-content-center align-items-center mt-2 flex-column">
-        <button type="button" wire:click="signUp" class="btn btn-primary rounded-pill arlon-semibold fs-5"
+        <button type="submit" class="btn btn-primary rounded-pill arlon-semibold fs-5"
             wire:loading.attr="disabled">S'inscrire</button>
         <span>ou</span>
         @include("components.social-auth")
     </div>
-</div>
+</form>

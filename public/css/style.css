@@ -12508,4 +12508,10 @@ textarea.form-control {
   width: 6rem;
 }
 
+form .error-msg {
+  left: 1rem;
+  bottom: -1rem;
+  font-size: 0.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */

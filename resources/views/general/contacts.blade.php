@@ -47,36 +47,7 @@
                       </div>
                     </div>
                   </div>
-                  <form id="contactForm" name="contactForm" class="contactForm">
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <div class="form-group">
-                          <input type="text" class="form-control" name="name" id="name" placeholder="Votre nom">
-                        </div>
-                      </div>
-                      <div class="col-lg-6"> 
-                        <div class="form-group">
-                          <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse e-mail">
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet">
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Entrez votre message ici"></textarea>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <input type="submit" value="Envoyer" class="btn btn-primary">
-                          <div class="submitting"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+                  @livewire("contact")
                   <div class="w-100 social-media mt-5 d-flex gap-2 align-items-center">
                     <h3>Suivez-nous :</h3>
                     <p class="d-flex align-items-center">

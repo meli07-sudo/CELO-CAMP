@@ -1,4 +1,5 @@
-<div>
+<form wire:submit.prevent="signIn">
+    @csrf
     <div class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
         <i class="fas fa-user position-absolute"><span class="fs-6 text-danger">*</span></i>
         <input value="{{ old('nom') }}" wire:model.defer="email" placeholder="Adresse E-mail"
@@ -18,10 +19,10 @@
         @enderror
     </div>
     <div class="d-flex justify-content-center align-items-center mt-2 flex-column">
-        <button type="button" wire:click="signIn" class="btn btn-primary rounded-pill arlon-semibold fs-5"
+        <button type="submit" class="btn btn-primary rounded-pill arlon-semibold fs-5"
             wire:loading.attr="disabled">Se
             connecter</button>
         <span>ou</span>
         @include("components.social-auth")
     </div>
-</div>
+</form>
