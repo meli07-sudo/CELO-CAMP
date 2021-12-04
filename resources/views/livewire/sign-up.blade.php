@@ -1,11 +1,11 @@
-<form>
+<form wire:submit.prevent="signUp">
     @csrf
-    <div wire:submit.prevent="" class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
+    <div  class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
         <i class="fas fa-user position-absolute"><span class="fs-6 text-danger">*</span></i>
         <input value="{{ old('nom') }}" wire:model.defer="nom" placeholder="Nom"
             class="w-100 p-2 outline-none border-0 bg-transparent" type="text" required maxlength="50">
         @error('nom')
-            <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
+            <span class="text-danger error-msg position-absolute">{{ $message }}</span>
         @enderror
     </div>
     <div class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
@@ -13,7 +13,7 @@
         <input value="{{ old('prenom') }}" wire:model.defer="prenom" placeholder="Prénom"
             class="w-100 p-2 outline-none border-0 bg-transparent" type="text" required maxlength="50">
         @error('prenom')
-            <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
+            <span class="text-danger error-msg position-absolute">{{ $message }}</span>
         @enderror
     </div>
     <div class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
@@ -21,7 +21,7 @@
         <input value="{{ old('email') }}" wire:model.defer="email" placeholder="Adresse E-mail"
             class="w-100 p-2 outline-none border-0 bg-transparent" type="email" required maxlength="100">
         @error('email')
-            <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
+            <span class="text-danger error-msg position-absolute">{{ $message }}</span>
         @enderror
     </div>
     <div class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
@@ -29,7 +29,7 @@
         <input value="{{ old('tel') }}" wire:model.defer="tel" placeholder="Numéro de téléphone"
             class="w-100 p-2 outline-none border-0 bg-transparent" type="tel" required maxlength="50">
         @error('tel')
-            <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
+            <span class="text-danger error-msg position-absolute">{{ $message }}</span>
         @enderror
     </div>
 
@@ -45,7 +45,7 @@
             @endforeach
         </div>
         @error('role')
-            <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
+            <span class="text-danger error-msg position-absolute">{{ $message }}</span>
         @enderror
     </div>
     <div class="input-field-container position-relative my-3 rounded-pill px-5 bg-white">
@@ -54,7 +54,7 @@
         <input value="{{ old('password') }}" wire:model.defer="password" placeholder="Mot de passe"
             class="w-100 p-2 outline-none border-0 bg-transparent" type="password" maxlength="150" required>
         @error('password')
-            <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
+            <span class="text-danger error-msg position-absolute">{{ $message }}</span>
         @enderror
     </div>
 
@@ -67,7 +67,7 @@
             placeholder="Confirmation mot de passe" class="w-100 p-2 outline-none border-0 bg-transparent"
             maxlength="150" type="password" required>
         @error('password_confirmation')
-            <span class="text-danger error-msg position-absolute position-absolute">{{ $message }}</span>
+            <span class="text-danger error-msg position-absolute">{{ $message }}</span>
         @enderror
     </div>
     <div class="d-flex justify-content-center align-items-center mt-2 flex-column">

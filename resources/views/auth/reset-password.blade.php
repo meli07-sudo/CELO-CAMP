@@ -8,6 +8,11 @@
 
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
+        @error('email')
+            <div class="d-flex align-content-center">
+                <span class="text-danger fs-6">gggg {{ $message }}</span>
+            </div>
+    @enderror
 
         <form method="POST" action="{{ route('password.update') }}">
             @csrf
