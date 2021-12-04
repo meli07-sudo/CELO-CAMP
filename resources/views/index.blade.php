@@ -1,11 +1,11 @@
-@extends('layout')
+@extends('layouts.public-layout')
 @section('title-page', 'Accueil')
 @section("styles")
 
 @endsection
 @section('main-content')
 
-    @include('_partials.navbar')
+    @include('_partials.public.navbar')
     <section class="hero-wrap" style="background-image: url('images/bg_1.jpg');">
         <div class="overlay"></div>
         <div class="container">

@@ -1,4 +1,4 @@
-@extends("layout")
+@extends('layouts.public-layout')
 
 @section("title-page","Cours de ".$courses[0]->category->title)
 
