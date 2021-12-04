@@ -10,7 +10,7 @@ use Illuminate\Queue\SerializesModels;
 class Contact extends Mailable
 {
     use Queueable, SerializesModels;
-    public string $name = "";
+    public string $nom = "";
     public string $email = "";
     public string $subjectForm = "";
     public string $message = "";
@@ -20,9 +20,9 @@ class Contact extends Mailable
      *
      * @return void
      */
-    public function __construct(string $name, string $email, string $subject, string $message)
+    public function __construct(string $nom, string $email, string $subject, string $message)
     {
-        $this->name = $name;
+        $this->nom = $nom;
         $this->email = $email;
         $this->subjectForm = $subject;
         $this->message = $message;
@@ -38,7 +38,7 @@ class Contact extends Mailable
         return $this->subject("Nouvelle Entrée Formulaire de Contact")->replyTo($this->email)->markdown("mails.contact", [
             "message" => $this->message,
             "subject" => $this->subjectForm,
-            "name" => $this->name,
+            "nom" => $this->name,
         ]);
     }
 }

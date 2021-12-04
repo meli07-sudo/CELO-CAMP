@@ -22,11 +22,11 @@
 </head>
 
 <body>
-    @include('_partials.header')
-    @include("_partials.navbar")
+    @include('_partials.public.header')
+    @include("_partials.public.navbar")
     @yield("main-content")
-    @include("_partials.newsletter")
-    @include("_partials.footer")
+    @include("_partials.public.newsletter")
+    @include("_partials.public.footer")
     <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('js/tiny-slider.js') }}"></script>

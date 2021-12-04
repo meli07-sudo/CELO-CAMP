@@ -9,10 +9,10 @@
             <div class="row">
                 <div class="col-lg-6 position-relative my-2">
                     <div class="form-group">
-                        <input type="text" required minlength="1" maxlength="100" class="form-control" name="name"
-                            wire:model="name" id="name" placeholder="Votre nom">
+                        <input type="text" required minlength="1" maxlength="100" class="form-control" name="nom"
+                            wire:model="nom" id="name" placeholder="Votre nom">
                     </div>
-                    @error('name')
+                    @error('nom')
                         <span class="text-danger error-msg position-absolute position-absolute ">{{ $message }}</span>
                     @enderror
                 </div>

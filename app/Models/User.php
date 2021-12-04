@@ -19,9 +19,14 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name',
+        'nom',
         'email',
         'password',
+        'email_verified_at',
+        'token',
+        'social_id',
+        'avatar',
+        
     ];
 
     /**
@@ -42,4 +47,8 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function social_vector(){
+        return $this->belongsTo(Social::class);
+    }
 }

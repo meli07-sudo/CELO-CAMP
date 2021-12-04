@@ -1,11 +1,9 @@
-@extends('layout')
+@extends('layouts.public-layout')
 
 @section("title-page","L'Équipe")
 
 
 @section("main-content")
-
-@include("_partials.navbar")
 
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_4.jpg');">
   <div class="overlay"></div>

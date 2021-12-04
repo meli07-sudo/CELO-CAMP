@@ -28,7 +28,9 @@ class SignUp extends Component
             'tel' => "bail|nullable|max:50|min:8",
             "role"=>"required"
         ], [
-            "required" => ":attribute est requis(e).",
+            "email.required" => "L'adresse e-mail est requis(e).",
+            "required" => ":attribute est requis.",
+            "role.required" => "Vous devez spécifier votre rôle.",
             "email" => ":attribute est invalide.",
             "max" => ":attribute ne doit pas dépasser :max caractères.",
             "min" => ":attribute doit contenir au moins :min caractères.",

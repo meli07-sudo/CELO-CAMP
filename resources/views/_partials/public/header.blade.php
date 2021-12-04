@@ -20,6 +20,16 @@
                     </p>
                 </div>
             </div>
+            <div class="col-md d-flex justify-content-evenly align-items-center">
+                @auth
+                <a class="" href="#"><form action="{{route('logout')}}" method="post">@csrf <button class="btn btn-primary btn-outline-primary px-3 py-2" type="submit">Déconnexion</button></form></a>
+                <a class="btn btn-primary px-3 py-2" href="{{route("dashboard")}}">Tableau de bord</a>
+                @endauth
+                @guest
+                <a class="btn btn-primary btn-outline-primary px-3 py-2" href="{{route('logup')}}">S'inscrire</a>
+                <a class="btn btn-primary px-3 py-2" href="{{route('login')}}">Se connecter</a>
+                @endguest
+            </div>
         </div>
     </div>
 </div>

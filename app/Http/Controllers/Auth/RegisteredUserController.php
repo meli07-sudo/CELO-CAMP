@@ -3,14 +3,11 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Mail\UserAdded;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Mail;
 
 class RegisteredUserController extends Controller
 {
@@ -18,7 +15,7 @@ class RegisteredUserController extends Controller
     public static function store(array $userInfo)
     {
         $user = User::create([
-            "name" => $userInfo['nom'],
+            "nom" => $userInfo['nom'],
             "prenom" => $userInfo['prenom'],
             "email" => $userInfo['email'],
             "tel" => $userInfo['tel'],
@@ -38,5 +35,14 @@ class RegisteredUserController extends Controller
         }
 
         return redirect(RouteServiceProvider::HOME);
+    }
+
+    public static function socialRegistration($userInfo){
+        $user = User::create([
+            "nom" => $userInfo['nom'],
+            "email" => $userInfo['email'],
+            "email_verified_at" => now(),
+        ]);
+        return $user;
     }
 }

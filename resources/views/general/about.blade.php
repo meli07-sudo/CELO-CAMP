@@ -1,4 +1,4 @@
-@extends("layout")
+@extends("layouts.public-layout")
 @section("title-page","À propos")
 @section("main-content")
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');">
