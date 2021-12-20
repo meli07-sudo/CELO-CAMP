@@ -35,10 +35,6 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->subject("Nouvelle Entrée Formulaire de Contact")->replyTo($this->email)->markdown("mails.contact", [
-            "message" => $this->message,
-            "subject" => $this->subjectForm,
-            "nom" => $this->name,
-        ]);
+        return $this->subject("Nouvelle Entrée Formulaire de Contact")->replyTo($this->email)->markdown("mails.contact");
     }
 }

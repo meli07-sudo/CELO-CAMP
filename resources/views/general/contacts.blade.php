@@ -28,7 +28,7 @@
                     <div class="col-md-4">
                       <div class="dbox w-100 d-flex align-items-start">
                         <div class="text">
-                          <p><span>Addresse:</span> Ouagadougou, Avenue Kwamé N'kruma</p>
+                          <p><span>Addresse:</span> Ouagadougou, Rue Joseph Badoua</p>
                         </div>
                       </div>
                     </div>

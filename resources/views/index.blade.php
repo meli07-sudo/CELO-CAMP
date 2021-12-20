@@ -69,7 +69,7 @@
                                         <h2>Apprenez avec des experts</h2>
                                         <p class="mb-0">Les formateurs et formatrices à disposition sur K4A
                                             Blockchain sont toutes et tous des personnes de choix possédant non seulement
-                                            des compétences hatement estimées dans leurs domaines mais aussi la volonté et
+                                            des compétences hautement estimées dans leurs domaines mais aussi la volonté et
                                             le savoir-faire nécéssaires pour faire des vous aussi des experts</p>
                                     </div>
                                 </div>
@@ -397,55 +397,55 @@
                       <span class="excerpt d-block">Basic Plan</span>
                       <span class="price"><sup>$</sup> <span class="number">49K</span></span>
 
-                      <div class="p-4 px-lg-5">
-                          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                              there live the blind texts.</p>
-                      </div>
+                            <div class="p-4 px-lg-5">
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    there live the blind texts.</p>
+                            </div>
 
-                      <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-              <div class="block-7">
-                  <div class="text-center">
-                      <span class="excerpt d-block">Beginner Plan</span>
-                      <span class="price"><sup>$</sup> <span class="number">79K</span></span>
+                            <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="block-7">
+                        <div class="text-center">
+                            <span class="excerpt d-block">Beginner Plan</span>
+                            <span class="price"><sup>$</sup> <span class="number">79K</span></span>
 
-                      <div class="p-4 px-lg-5">
-                          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                              there live the blind texts.</p>
-                      </div>
+                            <div class="p-4 px-lg-5">
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    there live the blind texts.</p>
+                            </div>
 
-                      <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-              <div class="block-7">
-                  <div class="text-center">
-                      <span class="excerpt d-block">Premium Plan</span>
-                      <span class="price"><sup>$</sup> <span class="number">109K</span></span>
+                            <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="block-7">
+                        <div class="text-center">
+                            <span class="excerpt d-block">Premium Plan</span>
+                            <span class="price"><sup>$</sup> <span class="number">109K</span></span>
 
-                      <div class="p-4 px-lg-5">
-                          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                              there live the blind texts.</p>
-                      </div>
+                            <div class="p-4 px-lg-5">
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    there live the blind texts.</p>
+                            </div>
 
-                      <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-              <div class="block-7">
-                  <div class="text-center">
-                      <span class="excerpt d-block">Ultimate Plan</span>
-                      <span class="price"><sup>$</sup> <span class="number">149K</span></span>
+                            <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="block-7">
+                        <div class="text-center">
+                            <span class="excerpt d-block">Ultimate Plan</span>
+                            <span class="price"><sup>$</sup> <span class="number">149K</span></span>
 
-                      <div class="p-4 px-lg-5">
-                          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                              there live the blind texts.</p>
-                      </div>
+                            <div class="p-4 px-lg-5">
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    there live the blind texts.</p>
+                            </div>
 
                       <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
                   </div>

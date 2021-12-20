@@ -29,11 +29,12 @@ class ResetPassword extends Component
     {
 
         $this->validate([
-            'email' => "bail|required|email|max:100",
+            'email' => "bail|required|email|max:100|exists:users,email",
             'password' => "bail|required|min:6|confirmed",
             'token' => "required"
         ], [
-            "required" => ":attribute est requis(e).",
+            "required" => ":attribute est requis.",
+            "email.required" => "L'adresse e-mail est requis(e).",
             "email" => ":attribute est invalide.",
             "max" => ":attribute ne doit pas dépasser :max caractères.",
             "min" => ":attribute doit contenir au moins :min caractères.",
