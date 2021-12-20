@@ -21,7 +21,6 @@
             <h2 class="ftco-heading-2">Navigation</h2>
             <ul class="list-unstyled">
               <li><a href="{{route('about')}}"><span class="ion ion-ios-arrow-round-forward me-2"></span>À propos</a></li>
-              <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Services</a></li>
               <li><a href="{{route('courses')}}"><span class="ion ion-ios-arrow-round-forward me-2"></span>Cours</a></li>
               <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>African Defi Community</a></li>
               <li><a href="{{route("contact")}}"><span class="ion ion-ios-arrow-round-forward me-2"></span>Contacts</a></li>
@@ -80,7 +79,7 @@
             <h2 class="ftco-heading-2">Vous avez des question ?</h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><span class="icon fa fa-map marker"></span><span class="text">Ouagadougou, Avenue Bassawarga</span></li>
+                <li><span class="icon fa fa-map marker"></span><span class="text">Ouagadougou, Rue Joseph Badoua</span></li>
                 <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+226 60 18 54 25</span></a></li>
                 <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@knowledgeforafrica.com</span></a></li>
               </ul>

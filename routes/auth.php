@@ -22,10 +22,15 @@ Route::group(["middleware" => ['guest']], function () {
     Route::get("auth/social/facebook/callback", [SocialAuth::class, "facebookCallback"]);
 });
 Route::group(['middleware' => ["auth"]], function () {
+    Route::get('/verifyicationemail/{id}/{hash}', [VerifyEmailController::class, '__invoke'])->middleware(['signed', 'throttle:6,1'])->name('verification.verify');
+    Route::post('/deconnexion', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
+
+
     Route::get('/verification-email', [EmailVerificationPromptController::class, '__invoke'])->name('verification.notice');
+    
     Route::get('/confirmation-password', [ConfirmablePasswordController::class, 'show'])->name('password.confirm');
     Route::post('/confirmation-password', [ConfirmablePasswordController::class, 'store']);
-    Route::post('/deconnexion', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
-    Route::get('/verifyicationemail/{id}/{hash}', [VerifyEmailController::class, '__invoke'])->middleware(['signed', 'throttle:6,1'])->name('verification.verify');
+
+
     Route::post('/email/verification-notification', [EmailVerificationNotificationController::class, 'store'])->middleware(['throttle:6,1'])->name('verification.send');
 });

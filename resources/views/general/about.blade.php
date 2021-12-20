@@ -1,13 +1,13 @@
 @extends("layouts.public-layout")
 @section("title-page","À propos")
 @section("main-content")
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('images/bg_2.jpg')}}');">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center">
         <div class="col-md-9 pt-5 mt-5 text-center">
-          <p class="breadcrumbs"><span class="me-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
-          <h1 class="mb-0 bread">About Us</h1>
+          <p class="breadcrumbs"><span class="me-2"><a href="index.html">Accueil <i class="fa fa-chevron-right"></i></a></span> <span>À propos <i class="fa fa-chevron-right"></i></span></p>
+          <h1 class="mb-0 bread">À propos de nous</h1>
         </div>
       </div>
     </div>
@@ -15,51 +15,58 @@
 
   <section class="ftco-section ftco-no-pt ftco-no-pb">
     <div class="container-xl">
-      <div class="row g-xl-5">
-        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-          <div class="img w-100" style="background-image: url(images/about.jpg);">
-          </div>
-        </div>
-        <div class="col-md-6 heading-section d-flex align-items-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-          <div class="mt-0 my-lg-5 py-5">
-            <span class="subheading">Learn Anything</span>
-            <h2 class="mb-2">Benefits About Online Learning Expertise</h2>
-            <div class="row mt-4 g-lg-2">
-              <div class="col-lg-12 d-flex align-items-stretch services-wrap">
-                <div class="services d-flex">
-                  <div class="icon"><span class="flaticon-online-learning"></span></div>
-                  <div class="text">
-                    <h2>Online Courses</h2>
-                    <p class="mb-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
+        <div class="row g-xl-5">
+            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <div class="img w-100" style="background-image: url(images/about.jpg);">
                 </div>
-              </div>
-              <div class="col-lg-12 d-flex align-items-stretch services-wrap">
-                <div class="services d-flex">
-                  <div class="icon"><span class="flaticon-certificate"></span></div>
-                  <div class="text">
-                    <h2>Earn A Certificates</h2>
-                    <p class="mb-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 d-flex align-items-stretch services-wrap">
-                <div class="services d-flex">
-                  <div class="icon"><span class="flaticon-scientist"></span></div>
-                  <div class="text">
-                    <h2>Learn with Expert</h2>
-                    <p class="mb-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+            <div class="col-md-6 heading-section d-flex align-items-center" data-aos="fade-up" data-aos-delay="200"
+                data-aos-duration="1000">
+                <div class="mt-0 my-lg-5 py-5">
+                    <span class="subheading">Apprenez tout de la Blockchain</span>
+                    <h2 class="mb-2">Bénéficiez de l'expertise des formateurs</h2>
+                    <div class="row mt-4 g-lg-2">
+                        <div class="col-lg-12 d-flex align-items-stretch services-wrap">
+                            <div class="services d-flex">
+                                <div class="icon"><span class="flaticon-online-learning"></span></div>
+                                <div class="text">
+                                    <h2>Cours - MOOCs - Formations</h2>
+                                    <p class="mb-0">Prenez part à nos MOOCs, optez pour nos sessions de
+                                        formations et nos cours en ligne </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 d-flex align-items-stretch services-wrap">
+                            <div class="services d-flex">
+                                <div class="icon"><span class="flaticon-certificate"></span></div>
+                                <div class="text">
+                                    <h2>Obtenez des certificats</h2>
+                                    <p class="mb-0">Obtenez des certificats attestant non-seulement votre
+                                        participation mais aussi qui attesteront des compétences aquises</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 d-flex align-items-stretch services-wrap">
+                            <div class="services d-flex">
+                                <div class="icon"><span class="flaticon-scientist"></span></div>
+                                <div class="text">
+                                    <h2>Apprenez avec des experts</h2>
+                                    <p class="mb-0">Les formateurs et formatrices à disposition sur K4A
+                                        Blockchain sont toutes et tous des personnes de choix possédant non seulement
+                                        des compétences hautement estimées dans leurs domaines mais aussi la volonté et
+                                        le savoir-faire nécéssaires pour faire des vous aussi des experts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <section class="ftco-section-counter img" style="background-image: url(images/bg_3.jpg);">
+  {{-- <section class="ftco-section-counter img" style="background-image: url(images/bg_3.jpg);">
     <div class="overlay"></div>
     <div class="container">
       <div class="row section-counter">
@@ -109,104 +116,114 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
  
 
   <section class="ftco-section testimony-section bg-light">
     <div class="container-xl">
-      <div class="row justify-content-center pb-4">
-        <div class="col-md-7 text-center heading-section" data-aos="fade-up" data-aos-duration="1000">
-          <span class="subheading">Testimonial</span>
-          <h2 class="mb-5">Our Successful Students</h2>
+        <div class="row justify-content-center pb-4">
+            <div class="col-md-7 text-center heading-section" data-aos="fade-up" data-aos-duration="1000">
+                <span class="subheading">Témoignages</span>
+                <h2 class="mb-5">Avis de satisfations</h2>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-          <div class="carousel-testimony">
-            <div class="item">
-              <div class="testimony-wrap">
-                <div class="text">
-                  <div class="d-flex align-items-center mb-4">
-                    <div class="user-img" style="background-image: url(images/person_1.jpg)">
-                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
+        <div class="row">
+            <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div class="carousel-testimony">
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="text">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                                        <div class="icon d-flex align-items-center justify-content-center"><span
+                                                class="fa fa-quote-left"></div>
+                                    </div>
+                                    <div class="ps-3 tx">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                                <p class="mb-4 msg">Far far away, behind the word mountains, far from the
+                                    countries Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="ps-3 tx">
-                      <p class="name">Roger Scott</p>
-                      <span class="position">Marketing Manager</span>
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="text">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="user-img" style="background-image: url(images/person_2.jpg)">
+                                        <div class="icon d-flex align-items-center justify-content-center"><span
+                                                class="fa fa-quote-left"></div>
+                                    </div>
+                                    <div class="ps-3 tx">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                                <p class="mb-4 msg">Far far away, behind the word mountains, far from the
+                                    countries Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="text">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="user-img" style="background-image: url(images/person_3.jpg)">
+                                        <div class="icon d-flex align-items-center justify-content-center"><span
+                                                class="fa fa-quote-left"></div>
+                                    </div>
+                                    <div class="ps-3 tx">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                                <p class="mb-4 msg">Far far away, behind the word mountains, far from the
+                                    countries Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="text">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                                        <div class="icon d-flex align-items-center justify-content-center"><span
+                                                class="fa fa-quote-left"></div>
+                                    </div>
+                                    <div class="ps-3 tx">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                                <p class="mb-4 msg">Far far away, behind the word mountains, far from the
+                                    countries Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="text">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="user-img" style="background-image: url(images/person_2.jpg)">
+                                        <div class="icon d-flex align-items-center justify-content-center"><span
+                                                class="fa fa-quote-left"></div>
+                                    </div>
+                                    <div class="ps-3 tx">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                                <p class="mb-4 msg">Far far away, behind the word mountains, far from the
+                                    countries Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="item">
-              <div class="testimony-wrap">
-                <div class="text">
-                  <div class="d-flex align-items-center mb-4">
-                    <div class="user-img" style="background-image: url(images/person_2.jpg)">
-                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                    </div>
-                    <div class="ps-3 tx">
-                      <p class="name">Roger Scott</p>
-                      <span class="position">Marketing Manager</span>
-                    </div>
-                  </div>
-                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap">
-                <div class="text">
-                  <div class="d-flex align-items-center mb-4">
-                    <div class="user-img" style="background-image: url(images/person_3.jpg)">
-                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                    </div>
-                    <div class="ps-3 tx">
-                      <p class="name">Roger Scott</p>
-                      <span class="position">Marketing Manager</span>
-                    </div>
-                  </div>
-                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap">
-                <div class="text">
-                  <div class="d-flex align-items-center mb-4">
-                    <div class="user-img" style="background-image: url(images/person_1.jpg)">
-                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                    </div>
-                    <div class="ps-3 tx">
-                      <p class="name">Roger Scott</p>
-                      <span class="position">Marketing Manager</span>
-                    </div>
-                  </div>
-                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap">
-                <div class="text">
-                  <div class="d-flex align-items-center mb-4">
-                    <div class="user-img" style="background-image: url(images/person_2.jpg)">
-                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-                    </div>
-                    <div class="ps-3 tx">
-                      <p class="name">Roger Scott</p>
-                      <span class="position">Marketing Manager</span>
-                    </div>
-                  </div>
-                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 @endsection
