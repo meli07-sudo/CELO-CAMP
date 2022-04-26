@@ -1,0 +1,50 @@
+@import "../variables";
+@font-face {
+    font-family: "Poppins Black";
+    src: url("../../fonts/poppins/Poppins-Black.otf");
+}
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("../../fonts/poppins/Poppins-Bold.otf");
+}
+@font-face {
+    font-family: "Poppins Light";
+    src: url("../../fonts/poppins/Poppins-Light.otf");
+}
+@font-face {
+    font-family: "Poppins Medium";
+    src: url("../../fonts/poppins/Poppins-Medium.otf");
+}
+@font-face {
+    font-family: "Poppins Regular";
+    src: url("../../fonts/poppins/Poppins-Regular.otf");
+}
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url("../../fonts/poppins/Poppins-SemiBold.otf");
+}
+@font-face {
+    font-family: "Poppins Thin";
+    src: url("../../fonts/poppins/Poppins-Thin.otf");
+}
+@font-face {
+    font-family: "Poppins ExtraBold";
+    src: url("../../fonts/poppins/Poppins-ExtraBold.otf");
+}
+@font-face {
+    font-family: "Poppins ExtraLight";
+    src: url("../../fonts/poppins/Poppins-ExtraLight.otf");
+}
+
+:root {
+    --title-color: #0c2e4a;
+    --general-color: #434343;
+    --custom-blue-color: #00c0ff;
+    --body-color: #fefefe;
+}
+
+body {
+    background-color: $body-color;
+    font-family: "Poppins Regular";
+    color: $general-color;
+}

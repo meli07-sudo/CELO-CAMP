@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Poppins Black";
+  src: url(/fonts/Poppins-Black.otf?9e5def582b1916bda929753d26873171);
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url(/fonts/Poppins-Bold.otf?b5c5cbad4c3e1e9f4fec3be37c48c625);
+}
+@font-face {
+  font-family: "Poppins Light";
+  src: url(/fonts/Poppins-Light.otf?f0c40fb3cca74f208452f1683bedee8b);
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url(/fonts/Poppins-Medium.otf?2175351766d1d5e18c15c0764bd847b8);
+}
+@font-face {
+  font-family: "Poppins Regular";
+  src: url(/fonts/Poppins-Regular.otf?1421a94e04ced16b1ffc101972b83e3f);
+}
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url(/fonts/Poppins-SemiBold.otf?daed8dfe825ca62d84b87d1a7696265e);
+}
+@font-face {
+  font-family: "Poppins Thin";
+  src: url(/fonts/Poppins-Thin.otf?85a73d99edcc0f4b9a7df82391e5f8f3);
+}
+@font-face {
+  font-family: "Poppins ExtraBold";
+  src: url(/fonts/Poppins-ExtraBold.otf?f662524d0b253362c53ed1190c537f46);
+}
+@font-face {
+  font-family: "Poppins ExtraLight";
+  src: url(/fonts/Poppins-ExtraLight.otf?dbadba246cc03e3210c89b739ee83e1d);
+}
+:root {
+  --title-color: #0c2e4a;
+  --general-color: #434343;
+  --custom-blue-color: #00c0ff;
+  --body-color: #fefefe;
+}
+
+body {
+  background-color: #fefefe;
+  font-family: "Poppins Regular";
+  color: #434343;
+}

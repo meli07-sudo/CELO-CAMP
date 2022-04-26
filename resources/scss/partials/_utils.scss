@@ -1,0 +1,91 @@
+@import "../variables";
+.poppins-black {
+    font-family: "Poppins Black";
+}
+.poppins-bold {
+    font-family: "Poppins Bold";
+}
+.poppins-light {
+    font-family: "Poppins Light";
+}
+.poppins-regular {
+    font-family: "Poppins Regular";
+}
+.poppins-thin {
+    font-family: "Poppins Thin";
+}
+.poppins-extrabold {
+    font-family: "Poppins ExtraBold";
+}
+.poppins-extralight {
+    font-family: "Poppins ExtraLight";
+}
+.poppins-medium {
+    font-family: "Poppins Medium";
+}
+.poppins-semibold {
+    font-family: "Poppins SemiBold";
+}
+.general-color {
+    color: $general-color;
+}
+.title-color {
+    color: $title-color;
+}
+.custom-blue-color {
+    color: $custom-blue-color;
+}
+.outline-none {
+    outline: none;
+}
+.light-shadow {
+    box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.096);
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.logo {
+    width: 4rem;
+    height: 4rem;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.btn-primary {
+    background-color: $custom-blue-color;
+    border-color: $custom-blue-color;
+
+    &:hover {
+        background-color: darken($color: $custom-blue-color, $amount: 5);
+        border-color: darken($color: $custom-blue-color, $amount: 5);
+    }
+}
+.btn-outline-primary {
+    background-color: transparent;
+    border-color: $custom-blue-color;
+
+    color: $custom-blue-color;
+
+    &:hover {
+        background-color: darken($color: $custom-blue-color, $amount: 5);
+        border-color: darken($color: $custom-blue-color, $amount: 5);
+    }
+}
+.course {
+    & > a {
+        &:hover,
+        .card-img-top:hover {
+            color: $general-color;
+        }
+    }
+    .card-img-top {
+        height: 16rem;
+    }
+}
+.rating {
+    .fas {
+        color: rgb(243, 203, 26);
+    }
+}
