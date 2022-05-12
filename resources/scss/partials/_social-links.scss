@@ -1,0 +1,46 @@
+.social-links {
+    .social-link {
+        width: 3em;
+        height: 3em;
+        border: 2px solid $general-color;
+        color: $general-color;
+
+        .fab {
+            font-size: 1em;
+        }
+
+        &:hover {
+            border-width: 0;
+        }
+
+        &.facebook:hover {
+            background: #1877f2;
+            .fa-facebook-f {
+                color: white;
+            }
+        }
+        &.linkedin:hover {
+            background: #0072b1;
+            .fa-linkedin-in {
+                color: white;
+            }
+        }
+        &.twitter:hover {
+            background: #03d0fc;
+            .fa-twitter {
+                color: white;
+            }
+        }
+        &.instagram:hover {
+            background: linear-gradient(
+                49.2deg,
+                #f9ed32 10%,
+                #ee2a7b 55%,
+                #002aff
+            );
+            .fa-instagram {
+                color: white;
+            }
+        }
+    }
+}

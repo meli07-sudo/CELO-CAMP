@@ -1,0 +1,134 @@
+section.banner {
+  max-height: 80rem;
+  background: url(/images/bg_1.jpg?28b9e3cec54f5808e27d2ef7cf169f3c) no-repeat;
+  background-size: cover;
+}
+section.banner .banner-container h2,
+section.banner .banner-container h5,
+section.banner .banner-container p,
+section.banner .banner-container a {
+  transform: translateX(-120%);
+  opacity: 0;
+  transition: all ease-in 0.6s;
+}
+section.banner .banner-container p {
+  transition-delay: 0.2s;
+}
+section.banner .banner-container a {
+  transition-delay: 0.3s;
+}
+section.banner .banner-container.content-visible h2,
+section.banner .banner-container.content-visible h5,
+section.banner .banner-container.content-visible p,
+section.banner .banner-container.content-visible a {
+  opacity: 1;
+  transform: translateX(0);
+}
+section.about {
+  background-image: linear-gradient(to bottom right, #f2f0ee, #e5e3e5);
+  overflow-x: hidden;
+}
+section.about .about-img {
+  background: url(/images/about.jpg?626a9d3cefd2ce885523971964e2ded8) no-repeat center;
+  background-size: cover;
+}
+section.about .img {
+  width: 3rem;
+  height: 100%;
+}
+section.about .about-text .about-text-item {
+  transform: translateX(120%);
+  opacity: 0;
+  transition: all ease-in 0.6s;
+}
+section.about .about-text .about-text-item p {
+  font-size: 0.85rem;
+}
+section.about .about-text .about-text-item:nth-of-type(2) {
+  transition-delay: 0.1s;
+}
+section.about .about-text .about-text-item:last-of-type {
+  transition-delay: 0.2s;
+}
+section.about .about-text.content-visible .about-text-item {
+  opacity: 1;
+  transform: translateX(0);
+}
+section.popular-courses .carousel-control-next,
+section.popular-courses .carousel-control-prev {
+  width: unset;
+  outline: none;
+  border: none;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #00c0ff;
+  top: 50%;
+  transform: translateY(-50%);
+}
+section.popular-courses .carousel-control-prev {
+  left: -0.9rem;
+}
+section.popular-courses .carousel-control-next {
+  right: -0.9rem;
+}
+section.popular-courses .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill='black' d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+section.popular-courses .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill='black' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+section.popular-courses .carousel-indicators {
+  bottom: -1.5rem;
+}
+section.popular-courses .carousel-indicators button {
+  color: var(--general-color);
+  outline: none;
+  border: none;
+  padding: 0 0.5rem;
+  margin: 0 0.3rem;
+}
+section.popular-courses .carousel-indicators button.active {
+  color: white;
+  background-color: var(--custom-blue-color);
+}
+section.courses-categories .nav-tabs .nav-item.show .nav-link,
+section.courses-categories .nav-tabs .nav-link.active,
+section.courses-categories .nav-tabs .nav-link:hover {
+  color: #fff;
+  background-color: var(--custom-blue-color);
+  border-color: var(--custom-blue-color);
+  font-family: "Poppins Semibold";
+}
+section.courses-categories .tab-pane > div > p {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 0.85rem;
+  }
+
+  section.banner .logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  section.popular-courses .carousel-inner .carousel-item .course:not(:first-of-type) {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  section.popular-courses .carousel-inner .carousel-item .course:not(:first-of-type):not(:nth-of-type(2)) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  section.popular-courses .carousel-inner .carousel-item .course:last-of-type {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  section.banner .banner-container {
+    text-align: justify;
+  }
+}

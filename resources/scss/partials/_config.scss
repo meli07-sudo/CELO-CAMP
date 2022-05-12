@@ -42,9 +42,13 @@
     --custom-blue-color: #00c0ff;
     --body-color: #fefefe;
 }
+// html{
+//     font-size: 62.5%;
+// }
 
 body {
     background-color: $body-color;
     font-family: "Poppins Regular";
     color: $general-color;
+    // font-size: 1.6rem;
 }

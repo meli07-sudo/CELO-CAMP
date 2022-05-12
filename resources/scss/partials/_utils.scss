@@ -73,19 +73,33 @@
         border-color: darken($color: $custom-blue-color, $amount: 5);
     }
 }
-.course {
-    & > a {
-        &:hover,
-        .card-img-top:hover {
-            color: $general-color;
-        }
-    }
-    .card-img-top {
-        height: 16rem;
-    }
-}
 .rating {
     .fas {
         color: rgb(243, 203, 26);
     }
 }
+.object-fit-cover{
+    object-fit: cover;
+}
+.btn.custom-simple-link{
+    color: $custom-blue-color;
+
+    &:hover{
+        color: darken($color: $custom-blue-color, $amount: 10);
+    }
+}
+.vh-100{
+    height: 100vh
+}
+.vw-100{
+    width: 100vw
+}
+.width-limited-container{
+    max-width: 150rem;
+}
+.height-limited-container{
+    max-width: 80rem;
+}
+
+@import "social-links";
+@import "course";

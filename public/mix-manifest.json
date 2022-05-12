@@ -1,8 +1,8 @@
 {
-    "/js/app.js": "/js/app.js",
+    "/js/public/app-public.js": "/js/public/app-public.js",
     "/js/public/index.js": "/js/public/index.js",
-    "/css/index.css": "/css/index.css",
-    "/css/utils.css": "/css/utils.css",
-    "/css/config.css": "/css/config.css",
-    "/css/app.css": "/css/app.css"
+    "/css/public/contacts.css": "/css/public/contacts.css",
+    "/css/public/teacher.css": "/css/public/teacher.css",
+    "/css/public/index.css": "/css/public/index.css",
+    "/css/public/app-public.css": "/css/public/app-public.css"
 }

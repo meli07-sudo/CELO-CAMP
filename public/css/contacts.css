@@ -1,0 +1,86 @@
+header > .wrapper {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  align-items: center;
+  background: #fff;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.26);
+  width: 100%;
+}
+header > .wrapper .logo-container {
+  grid-column: 1/2;
+  width: 100%;
+}
+header > .wrapper .navbar-container {
+  grid-column: 2/3;
+  width: 100%;
+}
+header.sticky-header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+}
+header nav#nav-bar > .wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1.7fr 1.3fr;
+  justify-content: end;
+}
+header nav#nav-bar > .wrapper .searchbar-container {
+  grid-column: 1/2;
+  justify-self: end;
+}
+header nav#nav-bar > .wrapper .btns-conainer {
+  grid-column: 2/3;
+  width: 100%;
+}
+header .search-bar {
+  background: rgba(255, 255, 255, 0.7);
+  max-width: 45rem;
+  width: auto;
+  min-width: 20rem;
+}
+header .search-bar .wrapper {
+  grid-template-columns: 1fr 2rem;
+}
+header .search-bar .wrapper input {
+  grid-column: 1/2;
+  width: 100%;
+}
+header .search-bar .wrapper button {
+  grid-column: 2/3;
+  width: 100%;
+}
+@media screen and (max-width: 450px) {
+  header nav#nav-bar > .wrapper {
+    grid-template-columns: unset;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .search-bar {
+    display: none;
+  }
+}
+@media screen and (min-width: 800px) {
+  header nav#nav-bar > .wrapper {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2.2fr 0.8fr;
+  }
+  header .search-bar {
+    background: rgba(255, 255, 255, 0.7);
+    max-width: 45rem;
+    width: 32 rem;
+  }
+}
+
+section.banner {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.137)), url(/images/contact-us.jpeg?2927416f7373baee3cdb08651c62fcca);
+  background-size: cover;
+  background-attachment: fixed;
+}

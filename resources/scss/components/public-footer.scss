@@ -1,50 +1,6 @@
 footer {
     background-color: #fff;
     // background-color: lighten($color: $custom-blue-color, $amount: 9);
-    & > .wrapper {
-        .social-links {
-            .social-link {
-                width: 3rem;
-                height: 3rem;
-                border: 2px solid $general-color;
-                color: $general-color;
-
-                &:hover {
-                    border-width: 0;
-                }
-
-                &.facebook:hover {
-                    background: #1877f2;
-                    .fa-facebook-f {
-                        color: white;
-                    }
-                }
-                &.linkedin:hover {
-                    background: #0072b1;
-                    .fa-linkedin-in {
-                        color: white;
-                    }
-                }
-                &.twitter:hover {
-                    background: #03d0fc;
-                    .fa-twitter {
-                        color: white;
-                    }
-                }
-                &.instagram:hover {
-                    background: linear-gradient(
-                        49.2deg,
-                        #f9ed32 10%,
-                        #ee2a7b 55%,
-                        #002aff
-                    );
-                    .fa-instagram {
-                        color: white;
-                    }
-                }
-            }
-        }
-    }
     .copyright {
         height: 3rem;
         background-color: #80808048;

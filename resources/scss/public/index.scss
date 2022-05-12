@@ -1,131 +1,186 @@
-@import "../partials/_config";
-@import "../partials/_utils";
-.main-wrapper {
-    header {
-        & > .wrapper {
-            display: grid;
-            grid-template-columns: 5rem 1fr;
-            align-items: center;
-            background: #fff;
-            border-bottom-left-radius: 0.5rem;
-            border-bottom-right-radius: 0.5rem;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.26);
-            width: 100%;
+@import "../variables";
+section {
+    &.banner {
+        max-height: 80rem;
+        background: url("../../imgs/bg_1.jpg") no-repeat;
+        background-size: cover;
 
-            .logo-container {
-                grid-column: 1/2;
-                width: 100%;
+        .banner-container {
+            h2,
+            h5,
+            p,
+            a {
+                transform: translateX(-120%);
+                opacity: 0;
+                transition: all ease-in 0.6s;
             }
-            .navbar-container {
-                grid-column: 2/3;
-                width: 100%;
+            p {
+                transition-delay: 0.2s;
             }
-        }
-        &.sticky-header {
-            z-index: 100;
-
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-
-            height: 5rem;
-        }
-    }
-    & > section {
-        &:first-of-type {
-            height: 100vh;
-            background: url("../../imgs/bg_1.jpg") no-repeat;
-            background-size: cover;
-        }
-        &:nth-of-type(2) {
-            grid-template-columns: 1fr 1fr;
-            background: #f2f2f2;
-
-            .about-img {
-                grid-column: 1/2;
-                background: url("../../imgs/about.jpg") no-repeat center;
-                background-size: cover;
+            a {
+                transition-delay: 0.3s;
             }
 
-            .img {
-                width: 3rem;
-                height: 100%;
-            }
-        }
-        &.popular-courses {
-            padding-bottom: 7rem !important;
-            .carousel-control-next,
-            .carousel-control-prev {
-                width: unset;
-                outline: none;
-                border: none;
-            }
-            .carousel-control-prev-icon {
-                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill='black' d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
-            }
-            .carousel-control-next-icon {
-                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill='black' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-            }
-            .carousel-indicators {
-                bottom: -3rem;
-
-                button {
-                    color: var(--general-color);
-                    outline: none;
-                    border: none;
-                    padding: 0 0.5rem;
-
-                    &.active {
-                        color: white;
-                        background-color: var(--custom-blue-color);
-                    }
+            &.content-visible {
+                h2,
+                h5,
+                p,
+                a {
+                    opacity: 1;
+                    transform: translateX(0);
                 }
             }
         }
-        &.courses-categories {
-            .nav-tabs .nav-item.show .nav-link,
-            .nav-tabs .nav-link.active,
-            .nav-tabs .nav-link:hover {
-                color: #fff;
-                background-color: var(--custom-blue-color);
-                border-color: var(--custom-blue-color);
-                font-family: "Poppins Semibold";
+    }
+    &.about {
+        background-image: linear-gradient(to bottom right, #f2f0ee, #e5e3e5);
+        overflow-x: hidden;
+
+        .about-img {
+            background: url("../../imgs/about.jpg") no-repeat center;
+            background-size: cover;
+        }
+
+        .img {
+            width: 3rem;
+            height: 100%;
+        }
+
+        .about-text {
+            .about-text-item {
+                transform: translateX(120%);
+                opacity: 0;
+                transition: all ease-in 0.6s;
+                p {
+                    font-size: 0.85rem;
+                }
+
+                &:nth-of-type(2) {
+                    transition-delay: 0.1s;
+                }
+                &:last-of-type {
+                    transition-delay: 0.2s;
+                }
+            }
+
+            &.content-visible {
+                .about-text-item {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
             }
         }
     }
+    &.popular-courses {
+        .carousel-control-next,
+        .carousel-control-prev {
+            width: unset;
+            outline: none;
+            border: none;
+            height: 3rem;
+            width: 3rem;
+            border-radius: 50%;
+            background-color: $custom-blue-color;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .carousel-control-prev {
+            left: -0.9rem;
+        }
+        .carousel-control-next {
+            right: -0.9rem;
+        }
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill='black' d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+        }
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill='black' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+        .carousel-indicators {
+            bottom: -1.5rem;
+
+            button {
+                color: var(--general-color);
+                outline: none;
+                border: none;
+                padding: 0 0.5rem;
+                margin: 0 0.3rem;
+
+                &.active {
+                    color: white;
+                    background-color: var(--custom-blue-color);
+                }
+            }
+        }
+    }
+    &.courses-categories {
+        .nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link.active,
+        .nav-tabs .nav-link:hover {
+            color: #fff;
+            background-color: var(--custom-blue-color);
+            border-color: var(--custom-blue-color);
+            font-family: "Poppins Semibold";
+        }
+        .tab-pane > div > p {
+            font-size: 0.9rem;
+        }
+    }
 }
-@import "../components/public-navbar.scss";
-@import "../components/public-footer.scss";
-@import "../partials/course";
+
 @media screen and (max-width: 576px) {
     html {
         font-size: 0.85rem;
     }
-    .main-wrapper {
-        & > section {
-            &:first-of-type {
-                .logo {
-                    width: 2.5rem;
-                    height: 2.5rem;
+    section {
+        &.banner {
+            .logo {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+        }
+        &.popular-courses {
+            .carousel-inner {
+                .carousel-item {
+                    .course:not(:first-of-type) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    section {
+        &.popular-courses {
+            .carousel-inner {
+                .carousel-item {
+                    .course:not(:first-of-type):not(:nth-of-type(2)) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    section {
+        &.popular-courses {
+            .carousel-inner {
+                .carousel-item {
+                    .course:last-of-type {
+                        display: none;
+                    }
                 }
             }
         }
     }
 }
 @media screen and (max-width: 450px) {
-    .main-wrapper {
-        & > section {
-            &:first-of-type {
-                .banner-container {
-                    text-align: justify;
-                }
-            }
-            &:nth-of-type(2) {
-                grid-template-columns: 1fr;
-                .about-img {
-                    display: none;
-                }
+    section {
+        &.banner {
+            .banner-container {
+                text-align: justify;
             }
         }
     }
