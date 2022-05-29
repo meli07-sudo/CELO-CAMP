@@ -2,6 +2,7 @@ section.banner {
   max-height: 80rem;
   background: url(/images/bg_1.jpg?28b9e3cec54f5808e27d2ef7cf169f3c) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 section.banner .banner-container h2,
 section.banner .banner-container h5,

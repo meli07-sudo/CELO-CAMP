@@ -233,92 +233,10 @@ body {
   transform: scale(1);
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  width: 100%;
-  transform: translateX(-50%);
-  height: 5rem;
-  z-index: 100;
-  transition: all 0.5s ease-in-out;
-}
-header > .wrapper {
-  display: grid;
-  grid-template-columns: 5rem 1fr;
-  align-items: center;
-}
-header > .wrapper .logo-container {
-  grid-column: 1/2;
-  width: 100%;
-}
-header > .wrapper .navbar-container {
-  grid-column: 2/3;
-  width: 100%;
-}
-header.sticky-header {
-  background: #fff;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.26);
-}
-header nav#nav-bar > .wrapper {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1.7fr 1.3fr;
-  justify-content: end;
-}
-header nav#nav-bar > .wrapper .searchbar-container {
-  grid-column: 1/2;
-  justify-self: end;
-}
-header nav#nav-bar > .wrapper .btns-conainer {
-  grid-column: 2/3;
-  width: 100%;
-}
-header .search-bar {
-  max-width: 45rem;
-  width: auto;
-  min-width: 20rem;
-}
-header .search-bar .wrapper {
-  grid-template-columns: 1fr 2rem;
-  background-color: rgba(255, 255, 255, 0.7);
-}
-header .search-bar .wrapper input {
-  grid-column: 1/2;
-  width: 100%;
-}
-header .search-bar .wrapper button {
-  grid-column: 2/3;
-  width: 100%;
-}
-@media screen and (max-width: 450px) {
-  header nav#nav-bar > .wrapper {
-    grid-template-columns: unset;
-  }
-}
-@media screen and (max-width: 500px) {
-  header .search-bar {
-    display: none;
-  }
-}
-@media screen and (min-width: 800px) {
-  header nav#nav-bar > .wrapper {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 2.2fr 0.8fr;
-  }
-  header .search-bar {
-    max-width: 45rem;
-    width: 32 rem;
-  }
-}
-
-footer {
-  background-color: #fff;
-}
-footer .copyright {
-  height: 3rem;
-  background-color: rgba(128, 128, 128, 0.2823529412);
+.wrapper {
+  width: clamp(20rem, 85vw, 30rem);
+  border-radius: 1rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }

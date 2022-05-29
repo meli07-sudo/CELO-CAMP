@@ -35,6 +35,9 @@
 .custom-blue-color {
     color: $custom-blue-color;
 }
+.bg-custom-blue-color {
+    background-color: $custom-blue-color;
+}
 .outline-none {
     outline: none;
 }
@@ -88,12 +91,12 @@
         color: darken($color: $custom-blue-color, $amount: 10);
     }
 }
-.vh-100{
-    height: 100vh
-}
-.vw-100{
-    width: 100vw
-}
+// .vh-100{
+//     height: 100vh
+// }
+// .vw-100{
+//     width: 100vw
+// }
 .width-limited-container{
     max-width: 150rem;
 }

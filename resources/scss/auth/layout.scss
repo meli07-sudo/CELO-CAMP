@@ -1,0 +1,7 @@
+@import "../partials/config";
+@import "../partials/_utils";
+.wrapper{
+    width: clamp(20rem,85vw,30rem);
+    border-radius: 1rem;
+    height: max-content;
+}

@@ -1,15 +1,18 @@
 @import "../partials/config";
 @import "../partials/_utils";
 header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    height: 5rem;
+    z-index: 100;
+    transition: all 0.5s ease-in-out;
     & > .wrapper {
         display: grid;
         grid-template-columns: 5rem 1fr;
         align-items: center;
-        background: #fff;
-        border-bottom-left-radius: 0.5rem;
-        border-bottom-right-radius: 0.5rem;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.26);
-        width: 100%;
 
         .logo-container {
             grid-column: 1/2;
@@ -21,14 +24,10 @@ header {
         }
     }
     &.sticky-header {
-        z-index: 100;
-
-        position: fixed;
-        top: 0;
-        left: 50%;
-        width: 100%;
-        transform: translateX(-50%);
-        height: 5rem;
+        background: #fff;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.26);
     }
     @import "../components/public-navbar.scss";
 }

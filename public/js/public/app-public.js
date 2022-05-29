@@ -32,6 +32,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/scss/public/contacts.scss":
+/*!*********************************************!*\
+  !*** ./resources/scss/public/contacts.scss ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/scss/public/app-public.scss":
 /*!***********************************************!*\
   !*** ./resources/scss/public/app-public.scss ***!
@@ -71,10 +84,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/scss/public/contacts.scss":
-/*!*********************************************!*\
-  !*** ./resources/scss/public/contacts.scss ***!
-  \*********************************************/
+/***/ "./resources/scss/auth/auth.scss":
+/*!***************************************!*\
+  !*** ./resources/scss/auth/auth.scss ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/scss/auth/layout.scss":
+/*!*****************************************!*\
+  !*** ./resources/scss/auth/layout.scss ***!
+  \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -195,10 +221,12 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/public/app-public": 0,
-/******/ 			"css/public/contacts": 0,
+/******/ 			"css/auth/layout": 0,
+/******/ 			"css/auth/auth": 0,
 /******/ 			"css/public/teacher": 0,
 /******/ 			"css/public/index": 0,
-/******/ 			"css/public/app-public": 0
+/******/ 			"css/public/app-public": 0,
+/******/ 			"css/public/contacts": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -248,11 +276,13 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/public/contacts","css/public/teacher","css/public/index","css/public/app-public"], () => (__webpack_require__("./resources/js/public/app-public.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/public/contacts","css/public/teacher","css/public/index","css/public/app-public"], () => (__webpack_require__("./resources/scss/public/app-public.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/public/contacts","css/public/teacher","css/public/index","css/public/app-public"], () => (__webpack_require__("./resources/scss/public/index.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/public/contacts","css/public/teacher","css/public/index","css/public/app-public"], () => (__webpack_require__("./resources/scss/public/teacher.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/public/contacts","css/public/teacher","css/public/index","css/public/app-public"], () => (__webpack_require__("./resources/scss/public/contacts.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/auth/layout","css/auth/auth","css/public/teacher","css/public/index","css/public/app-public","css/public/contacts"], () => (__webpack_require__("./resources/js/public/app-public.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/auth/layout","css/auth/auth","css/public/teacher","css/public/index","css/public/app-public","css/public/contacts"], () => (__webpack_require__("./resources/scss/public/app-public.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/auth/layout","css/auth/auth","css/public/teacher","css/public/index","css/public/app-public","css/public/contacts"], () => (__webpack_require__("./resources/scss/public/index.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/auth/layout","css/auth/auth","css/public/teacher","css/public/index","css/public/app-public","css/public/contacts"], () => (__webpack_require__("./resources/scss/public/teacher.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/auth/layout","css/auth/auth","css/public/teacher","css/public/index","css/public/app-public","css/public/contacts"], () => (__webpack_require__("./resources/scss/auth/auth.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/auth/layout","css/auth/auth","css/public/teacher","css/public/index","css/public/app-public","css/public/contacts"], () => (__webpack_require__("./resources/scss/auth/layout.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/auth/layout","css/auth/auth","css/public/teacher","css/public/index","css/public/app-public","css/public/contacts"], () => (__webpack_require__("./resources/scss/public/contacts.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
