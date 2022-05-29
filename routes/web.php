@@ -14,3 +14,7 @@ Route::get('/devenir-partenaire', function () {
 Route::get('/devenir-formateur', function () {
     return view("public.become-teacher");
 })->name("become-teacher");
+
+Route::view("dashboard","general.dashboard")->name("dashboard")->middleware(["auth"]);
+
+require __DIR__ . "/auth.php";
