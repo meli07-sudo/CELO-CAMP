@@ -8,11 +8,11 @@
     <link rel="shortcut icon" href="{{ asset('images/blockchain.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts-awesome/css/all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/public/app-public.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/layouts/public.css') }}">
     @yield("styles")
     @yield("defer_scripts")
     <script defer src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-    <script defer src="{{ asset('js/public/app-public.js') }}"></script>
+    <script defer src="{{ asset('js/layouts/public.js') }}"></script>
     <title>@yield('page_title') | K4A Blockchain</title>
 </head>
 

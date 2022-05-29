@@ -1,11 +1,11 @@
 {
-    "/js/public/app-public.js": "/js/public/app-public.js",
+    "/js/layouts/public.js": "/js/layouts/public.js",
     "/js/public/index.js": "/js/public/index.js",
     "/js/auth/auth.js": "/js/auth/auth.js",
-    "/css/auth/layout.css": "/css/auth/layout.css",
+    "/css/layouts/auth.css": "/css/layouts/auth.css",
     "/css/auth/auth.css": "/css/auth/auth.css",
     "/css/public/teacher.css": "/css/public/teacher.css",
     "/css/public/index.css": "/css/public/index.css",
-    "/css/public/app-public.css": "/css/public/app-public.css",
+    "/css/layouts/public.css": "/css/layouts/public.css",
     "/css/public/contacts.css": "/css/public/contacts.css"
 }

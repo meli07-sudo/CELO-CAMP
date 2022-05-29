@@ -1,4 +1,4 @@
-@extends("public.layout")
+@extends("layout.public")
 @section('page_title', 'Devenir Formateur')
 @section('styles')
     <link rel="stylesheet" href="{{ asset('css/public/teacher.css') }}">

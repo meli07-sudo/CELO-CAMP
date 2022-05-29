@@ -1,4 +1,4 @@
-@extends('auth.layout')
+@extends('layout.auth')
 @section('page-title', "Vérification Adresse E-mail")
 @section('main-content')
     <div class="bg-white wrapper p-4">

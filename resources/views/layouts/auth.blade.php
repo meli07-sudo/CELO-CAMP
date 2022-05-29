@@ -7,7 +7,7 @@
     <title>@yield("page-title") | K4A Blockchain</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts-awesome/css/all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset("css/auth/layout.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/layouts/auth.css") }}">
     @yield('styles')
     @yield('defer-scripts')
 </head>
