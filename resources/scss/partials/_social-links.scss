@@ -13,6 +13,20 @@
             border-width: 0;
         }
 
+        &.google:hover {
+            background: $body-color;
+            .fa-google {
+                color: transparent;
+                background-clip: text;
+                background-image: linear-gradient(#ff5040,#ffcb31,#09882b,#2370f7);
+            }
+        }
+        &.github:hover {
+            background: $general-color;
+            .fa-github {
+                color: white;
+            }
+        }
         &.facebook:hover {
             background: #1877f2;
             .fa-facebook-f {

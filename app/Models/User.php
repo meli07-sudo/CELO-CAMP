@@ -44,13 +44,22 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function getPersonalToken(){
+    public function getPersonalToken()
+    {
         return $this->token;
     }
-    public function setPersonalToken($value){
-        $this->update(["token"=>$value]);
+    public function setPersonalToken($value)
+    {
+        $this->update(["token" => $value]);
     }
-    public function checkToken($hash){
-        return Hash::check($this->getPersonalToken(),$hash);
+    public function checkToken($hash)
+    {
+        return Hash::check($this->getPersonalToken(), $hash);
+    }
+    public function emailNotVerifiedAlert()
+    {
+        if (!$this->hasVerifiedEmail()) {
+            alert("Votre adresse e-mail n'a pas encore vérifiée. Veuillez procéder à la vérification en cliquant sur le boutton contenu dans l'e-mail reçu à votre indcription ou faites une nouvelle demande de vérification dans vos paramètres de compte");
+        }
     }
 }
