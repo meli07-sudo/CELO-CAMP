@@ -31,4 +31,9 @@ header {
     }
     @import "../components/public-navbar.scss";
 }
+@media screen and (max-width:576px) {
+    html{
+        font-size: clamp(10px,3.5vw,16px);
+    }
+}
 @import "../components/public-footer.scss";

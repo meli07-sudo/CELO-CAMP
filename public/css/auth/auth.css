@@ -120,13 +120,26 @@ body {
   height: 100%;
 }
 
+a:hover {
+  color: #00c0ff;
+}
+
+.btn {
+  color: #00c0ff;
+}
+.btn:hover {
+  color: #00a5db;
+}
+
 .btn-primary {
   background-color: #00c0ff;
   border-color: #00c0ff;
+  color: white;
 }
 .btn-primary:hover {
   background-color: #00ade6;
   border-color: #00ade6;
+  color: white;
 }
 
 .btn-outline-primary {
@@ -135,8 +148,13 @@ body {
   color: #00c0ff;
 }
 .btn-outline-primary:hover {
-  background-color: #00ade6;
-  border-color: #00ade6;
+  background-color: #00c0ff;
+  border-color: #00c0ff;
+  color: white;
+}
+
+.small {
+  font-size: 0.85rem;
 }
 
 .rating .fas {

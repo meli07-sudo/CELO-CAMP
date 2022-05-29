@@ -106,10 +106,6 @@ section.courses-categories .tab-pane > div > p {
 }
 
 @media screen and (max-width: 576px) {
-  html {
-    font-size: 0.85rem;
-  }
-
   section.banner .logo {
     width: 2.5rem;
     height: 2.5rem;

@@ -7,9 +7,9 @@
     <script type="module" src="{{ asset('js/public/index.js') }}"></script>
 @endsection
 @section('main-content')
-    <section class="w-100 d-grid align-items-center vh-100 banner mx-auto">
+    <section class="container-fluid mx-auto d-grid align-items-center vh-100 banner">
         <div class="container-fluid row align-items-center">
-            <div class="banner-container col-12 col-sm-10 col-md-6 col-xl-6 col-lg-6">
+            <div class="banner-container col-12 col-sm-11 col-md-8">
                 <h5 class="text-white">Bienvenue sur K4A Blockchain</h5>
                 <h2 class="text-white poppins-semibold">Meilleur plateforme africaine d'apprentisssage à la Blockchain
                 </h2>
@@ -24,7 +24,7 @@
             </div>
         </div>
     </section>
-    <section class="poppins-light py-3 about">
+    <section class="container-fluid poppins-light py-3 about">
         <div class="row my-5">
             <div class="about-img col-0 col-md-5 col-lg-6"></div>
             <div class="about-text p-3 px-4 offset-1 col-10 offset-md-0 col-md-7 col-lg-6">
@@ -93,7 +93,7 @@
                 </div>
             </div>
         </div> --}}
-    <section class="mt-5 popular-courses">
+    <section class="container-fluid mx-auto mt-5 popular-courses">
         <h5 class="custom-blue-color text-center">Cours les plus populaires</h5>
         <h2 class="poppins-semibold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
         <div class="p-3">
@@ -144,7 +144,7 @@
             </div>
         </div>
     </section>
-    <section class="mt-5 be-teacher">
+    <section class="container-fluid mx-auto mt-5 be-teacher">
         <h5 class="custom-blue-color text-center">Devenir formateur K4A Blockchain</h5>
         <h2 class="poppins-semibold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
         <div class="container wrapper p-3 mt-4">
