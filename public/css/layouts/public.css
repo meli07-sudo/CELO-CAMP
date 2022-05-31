@@ -301,6 +301,10 @@ header .search-bar .wrapper button {
   }
 }
 
+section.banner {
+  background-attachment: fixed;
+}
+
 @media screen and (max-width: 576px) {
   html {
     font-size: clamp(10px, 3.5vw, 16px);

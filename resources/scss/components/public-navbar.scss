@@ -1,9 +1,5 @@
-nav#nav-bar {
-    > .wrapper {
-    }
-}
 .search-bar {
-    width: clamp(15rem,100%,45rem);
+    width: clamp(15rem, 100%, 45rem);
     .wrapper {
         grid-template-columns: 1fr 2rem;
         background-color: rgba(255, 255, 255, 0.7);
@@ -17,11 +13,11 @@ nav#nav-bar {
         }
     }
 }
-@media screen and (min-width:576px) and (max-width:892px) {
+@media screen and (min-width: 576px) and (max-width: 892px) {
     nav#nav-bar {
         > .wrapper {
-            .btns-container a{
-                font-size: clamp(10px,1.5vw,16px);
+            .btns-container a {
+                font-size: clamp(10px, 1.5vw, 16px);
             }
         }
     }

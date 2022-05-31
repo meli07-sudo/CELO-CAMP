@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts-awesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/layouts/public.css') }}">
-    @yield("styles")
-    @yield("defer_scripts")
+    @livewireStyles
+    @yield('styles')
+    @yield('defer_scripts')
     <script defer src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     <script defer src="{{ asset('js/layouts/public.js') }}"></script>
     <title>@yield('page_title') | K4A Blockchain</title>
@@ -35,7 +36,8 @@
             @include('components.public.public-footer')
         @show
     </div>
-    @yield("scripts")
+    @livewireScripts
+    @yield('scripts')
 </body>
 
 </html>

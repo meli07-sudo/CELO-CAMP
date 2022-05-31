@@ -11,4 +11,5 @@ mix
     .sass("resources/scss/public/teacher.scss","public/css/public")
     .sass("resources/scss/auth/auth.scss","public/css/auth")
     .sass("resources/scss/layouts/auth.scss","public/css/layouts")
+    .sass("resources/scss/public/partnair.scss","public/css/public")
     .sass("resources/scss/public/contacts.scss","public/css/public");

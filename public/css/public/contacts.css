@@ -1,6 +1,5 @@
 section.banner {
   height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.137)), url(/images/contact-us.jpeg?2927416f7373baee3cdb08651c62fcca);
+  background-image: url(/images/contact-us.jpeg?2927416f7373baee3cdb08651c62fcca);
   background-size: cover;
-  background-attachment: fixed;
 }

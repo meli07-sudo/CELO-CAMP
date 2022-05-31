@@ -4,6 +4,7 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use Illuminate\Support\Facades\Storage;
 
 class Kernel extends ConsoleKernel
 {
@@ -25,6 +26,10 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
+        // $schedule->call(function(){
+        //     Storage::deleteDirectory(storage_path("app/files_become_partnair/"));
+
+        // })->daily()->description("Delete the files_become_partnair's folder in storage/app");
     }
 
     /**

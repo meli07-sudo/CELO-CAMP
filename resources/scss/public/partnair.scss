@@ -4,8 +4,14 @@ section.banner {
     //         to bottom,
     //         rgba(0, 0, 0, 0.7),
     //         rgba(0, 0, 0, 0.137)
-    //     ),
-    //     url("../../imgs/contact-us.jpeg");
-    background-image: url("../../imgs/contact-us.jpeg");
+    //     ),url("../../imgs/image_3.jpg");
+    background-image: url("../../imgs/image_3.jpg");
     background-size: cover;
+
+    .error-msg{
+        font-size: .7rem;
+    }
+}
+.demand-sent{
+    max-width: 35rem;
 }

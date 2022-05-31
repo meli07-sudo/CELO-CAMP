@@ -4,7 +4,7 @@
             @include('components.public.searchbar')
         </div>
         @guest
-            <div class="btns-container text-end col-12">
+            <div class="btns-container text-end col-12 col-sm-6 col-md-5 col-lg-5">
                 <a class="small btn poppins-semibold" href="{{ route('get.auth') }}">S'inscrire</a>
                 <a class="small btn btn-primary poppins-semibold rounded-pill" href="{{ route('get.auth') }}">Se
                     connecter</a>
