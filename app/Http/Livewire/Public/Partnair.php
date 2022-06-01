@@ -100,7 +100,7 @@ class Partnair extends Component
             "matriculeOuRegistreCommerce" => $this->matriculeOuRegistreCommerce,
             "file" => $this->filePath,
         ]);
-        // session()->flash("demand-sent", __("messages.partnair-demand-sent"));
+        session()->flash("demand-sent", __("messages.partnair-demand-sent"));
     }
     public function render()
     {
