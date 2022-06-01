@@ -193,6 +193,21 @@ a:hover {
 .social-links .social-link:hover {
   border-width: 0;
 }
+.social-links .social-link.google:hover {
+  background: #fefefe;
+}
+.social-links .social-link.google:hover .fa-google {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(#ff5040, #ffcb31, #09882b, #2370f7);
+}
+.social-links .social-link.github:hover {
+  background: #434343;
+}
+.social-links .social-link.github:hover .fa-github {
+  color: white;
+}
 .social-links .social-link.facebook:hover {
   background: #1877f2;
 }
