@@ -11,6 +11,3 @@ Route::get('/contacts', function () {
 Route::get('/devenir-partenaire', function () {
     return view("public.become-partnair");
 })->name("become-partnair");
-Route::get('/devenir-formateur', function () {
-    return view("public.become-teacher");
-})->name("become-teacher");

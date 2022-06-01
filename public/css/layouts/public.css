@@ -120,13 +120,26 @@ body {
   height: 100%;
 }
 
+a:hover {
+  color: #00c0ff;
+}
+
+.btn {
+  color: #00c0ff;
+}
+.btn:hover {
+  color: #00a5db;
+}
+
 .btn-primary {
   background-color: #00c0ff;
   border-color: #00c0ff;
+  color: white;
 }
 .btn-primary:hover {
   background-color: #00ade6;
   border-color: #00ade6;
+  color: white;
 }
 
 .btn-outline-primary {
@@ -135,8 +148,13 @@ body {
   color: #00c0ff;
 }
 .btn-outline-primary:hover {
-  background-color: #00ade6;
-  border-color: #00ade6;
+  background-color: #00c0ff;
+  border-color: #00c0ff;
+  color: white;
+}
+
+.small {
+  font-size: 0.85rem;
 }
 
 .rating .fas {
@@ -277,24 +295,8 @@ header.sticky-header {
   border-bottom-right-radius: 0.5rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.26);
 }
-header nav#nav-bar > .wrapper {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1.7fr 1.3fr;
-  justify-content: end;
-}
-header nav#nav-bar > .wrapper .searchbar-container {
-  grid-column: 1/2;
-  justify-self: end;
-}
-header nav#nav-bar > .wrapper .btns-conainer {
-  grid-column: 2/3;
-  width: 100%;
-}
 header .search-bar {
-  max-width: 45rem;
-  width: auto;
-  min-width: 20rem;
+  width: clamp(15rem, 100%, 45rem);
 }
 header .search-bar .wrapper {
   grid-template-columns: 1fr 2rem;
@@ -308,28 +310,21 @@ header .search-bar .wrapper button {
   grid-column: 2/3;
   width: 100%;
 }
-@media screen and (max-width: 450px) {
-  header nav#nav-bar > .wrapper {
-    grid-template-columns: unset;
-  }
-}
-@media screen and (max-width: 500px) {
-  header .search-bar {
-    display: none;
-  }
-}
-@media screen and (min-width: 800px) {
-  header nav#nav-bar > .wrapper {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 2.2fr 0.8fr;
-  }
-  header .search-bar {
-    max-width: 45rem;
-    width: 32 rem;
+@media screen and (min-width: 576px) and (max-width: 892px) {
+  header nav#nav-bar > .wrapper .btns-container a {
+    font-size: clamp(10px, 1.5vw, 16px);
   }
 }
 
+section.banner {
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: clamp(10px, 3.5vw, 16px);
+  }
+}
 footer {
   background-color: #fff;
 }

@@ -1,0 +1,12 @@
+section.banner {
+  height: 100vh;
+  background-image: url(/images/image_3.jpg?9aa21190ded3f8543691dd4801f97dab);
+  background-size: cover;
+}
+section.banner .error-msg {
+  font-size: 0.7rem;
+}
+
+.demand-sent {
+  max-width: 35rem;
+}

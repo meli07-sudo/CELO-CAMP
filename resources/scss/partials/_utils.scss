@@ -56,13 +56,25 @@
         height: 100%;
     }
 }
+a:hover {
+    color: $custom-blue-color;
+}
+.btn {
+    color: $custom-blue-color;
+
+    &:hover {
+        color: darken($color: $custom-blue-color, $amount: 7);
+    }
+}
 .btn-primary {
     background-color: $custom-blue-color;
     border-color: $custom-blue-color;
+    color: white;
 
     &:hover {
         background-color: darken($color: $custom-blue-color, $amount: 5);
         border-color: darken($color: $custom-blue-color, $amount: 5);
+        color: white;
     }
 }
 .btn-outline-primary {
@@ -72,22 +84,26 @@
     color: $custom-blue-color;
 
     &:hover {
-        background-color: darken($color: $custom-blue-color, $amount: 5);
-        border-color: darken($color: $custom-blue-color, $amount: 5);
+        background-color: $custom-blue-color;
+        border-color: $custom-blue-color;
+        color: white;
     }
+}
+.small {
+    font-size: 0.85rem;
 }
 .rating {
     .fas {
         color: rgb(243, 203, 26);
     }
 }
-.object-fit-cover{
+.object-fit-cover {
     object-fit: cover;
 }
-.btn.custom-simple-link{
+.btn.custom-simple-link {
     color: $custom-blue-color;
 
-    &:hover{
+    &:hover {
         color: darken($color: $custom-blue-color, $amount: 10);
     }
 }
@@ -97,10 +113,10 @@
 // .vw-100{
 //     width: 100vw
 // }
-.width-limited-container{
+.width-limited-container {
     max-width: 150rem;
 }
-.height-limited-container{
+.height-limited-container {
     max-width: 80rem;
 }
 
