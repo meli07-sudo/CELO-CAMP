@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset("css/layouts/auth.css") }}">
     @yield('styles')
     @yield('defer-scripts')
+    <script defer src="{{asset('js/layouts/auth.js')}}"></script>
 </head>
 <body>
     <section class="vh-100 bg-custom-blue-color vw-100 d-flex justify-content-center align-items-center">

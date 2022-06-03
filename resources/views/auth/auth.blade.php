@@ -16,26 +16,27 @@
 <body>
     <section class="main-container">
         <div class="signin-signup">
-            @livewire("auth.login")
-            @livewire("auth.register")
+            @livewire('auth.login')
+            @livewire('auth.register')
         </div>
         <div class="panels-container">
             <div class="panel left-panel text-white">
                 <div class="content">
-                    <h4 class="h3 poppins-semibold">Lorem ipsum dolor sit amet.</h4>
+                    <h4 class="h3 poppins-semibold">Vous n'avez pas de compte ?</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veritatis illo ratione alias
+                        Rejoignez-nous et faites vos pas dans un univers de ressources de qualité pour en apprendre
+                        beaucoup sur la Blockchain.
                     </p>
-                    <a href="#" class="btn btn-outline-primary rounded-pill text-white border-white toggle-form-mode">Se
-                        connecter</a>
+                    <a href="#"
+                        class="btn btn-outline-primary rounded-pill text-white border-white toggle-form-mode">S'inscrire</a>
                 </div>
                 <img src="" alt="">
             </div>
             <div class="panel right-panel text-white">
                 <div class="content">
-                    <h4 class="h3 poppins-semibold">Lorem ipsum dolor sit amet.</h4>
+                    <h4 class="h3 poppins-semibold">Déja membre ?</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veritatis illo ratione alias
+                        NOus sommes ravi de vous revoir parmi nous. Reprenez où vous en etiez sur K4A Blockchain.
                     </p>
                     <a href="#" class="btn btn-outline-primary rounded-pill text-white border-white toggle-form-mode">Se
                         connecter</a>

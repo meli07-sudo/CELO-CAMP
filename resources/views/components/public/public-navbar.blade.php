@@ -12,7 +12,7 @@
         @endguest
         @auth
             <div class="btns-container text-end col-12 col-sm-6 col-md-5 col-lg-5">
-                <a class="small btn btn-outline-primary poppins-semibold rounded-3" href="{{ route('get.auth') }}"><i
+                <a class="small btn btn-outline-primary poppins-semibold rounded-3" href="{{ route('logout') }}"><i
                         class="fas fa-sign-out-alt"></i> Déconnexion</a>
                 <a class="small btn btn-primary poppins-semibold rounded-3" href="{{ route('dashboard') }}"><i
                         class="fas fa-home"></i>Tableau de bord</a>

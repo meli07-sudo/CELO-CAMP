@@ -45,7 +45,7 @@ class Register extends Component
     public function handleSubmit()
     {
         $this->validate($this->rules,$this->messages,$this->attributes);
-        UserController::register([
+        (new UserController())->register([
             "nom"=>$this->nom,
             "prenom"=>$this->prenom,
             "email"=>$this->email,

@@ -5,6 +5,7 @@ mix
     .js("resources/js/layouts/public.js", "public/js/layouts/")
     .js("resources/js/public/index.js", "public/js/public/")
     .js("resources/js/auth/auth.js", "public/js/auth/")
+    .js("resources/js/layouts/auth.js","public/js/layouts")
     // .sass("resources/scss/app.scss","public/css")
     .sass("resources/scss/layouts/public.scss","public/css/layouts")
     .sass("resources/scss/public/index.scss","public/css/public")

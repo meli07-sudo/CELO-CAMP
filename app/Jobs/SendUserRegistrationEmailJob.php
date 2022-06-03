@@ -35,6 +35,6 @@ class SendUserRegistrationEmailJob implements ShouldQueue
     public function handle()
     {
         $this->user->setPersonalToken(Str::random(70));
-        Mail::to($this->user->email)->send(new NewUserRegisteredEmail($this->user, bcrypt($this->user->getPersonalToken())));
+        Mail::to($this->user->email)->send(new NewUserRegisteredEmail($this->user, encrypt(bcrypt($this->user->getPersonalToken()))));
     }
 }

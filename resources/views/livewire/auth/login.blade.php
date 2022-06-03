@@ -36,8 +36,9 @@
         </p>
         <button class="btn btn-primary rounded-pill poppins-semibold" type="submit">Se
             connecter</button>
-            @include("partials.social-auth")
-        <a href="#" class="custom-blue-color align-self-start d-inline-flex small mt-2">Mot de passe oublié
+        @include('partials.social-auth')
+        <a href="{{route('get.forgot-password')}}" class="btn text-decoration-underline custom-blue-color align-self-start d-inline-flex mt-2">Mot de
+            passe oublié
             ?</a>
 
     </div>

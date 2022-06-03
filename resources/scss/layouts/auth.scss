@@ -1,7 +1,54 @@
 @import "../partials/config";
 @import "../partials/_utils";
-.wrapper{
-    width: clamp(20rem,85vw,30rem);
+.wrapper {
+    width: clamp(20rem, 85vw, 27rem);
     border-radius: 1rem;
     height: max-content;
+
+    .form-group {
+        margin: 0 auto;
+        width: 90%;
+        .form-field {
+            grid-template-columns: 2rem 1fr;
+            align-items: center;
+            column-gap: 0.1rem;
+            padding: 0.7rem 1rem;
+            background-color: lighten($color: $gray-color, $amount: 35);
+
+            label i {
+                color: lighten($color: $gray-color, $amount: 3);
+            }
+            &.password {
+                grid-template-columns: 2rem 1fr 2rem;
+
+                i.fas.fa-eye,
+                i.fas.fa-eye-slash {
+                    grid-column: 3/4;
+                    width: 100%;
+                }
+            }
+            label {
+                grid-column: 1/2;
+
+                width: 100%;
+            }
+            label {
+                grid-column: 1/2;
+
+                width: 100%;
+            }
+            input {
+                grid-column: 2/3;
+
+                width: 100%;
+                font-size: 1.1rem;
+            }
+        }
+        span.text-danger {
+            line-height: 0.8rem;
+            font-size: 0.7rem;
+            bottom: -1rem;
+            left: 1rem;
+        }
+    }
 }
