@@ -35,7 +35,7 @@ class Login extends Component
     public function handleSubmit()
     {
         $this->validate($this->rules, $this->messages, $this->attributes);
-        $login = UserController::login([
+        $login = (new UserController())->login([
             "email" => $this->email,
             "password" => $this->password,
             "remember" => $this->remember,

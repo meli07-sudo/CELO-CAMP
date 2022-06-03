@@ -2,6 +2,7 @@
     "/js/layouts/public.js": "/js/layouts/public.js",
     "/js/public/index.js": "/js/public/index.js",
     "/js/auth/auth.js": "/js/auth/auth.js",
+    "/js/layouts/auth.js": "/js/layouts/auth.js",
     "/css/layouts/auth.css": "/css/layouts/auth.css",
     "/css/auth/auth.css": "/css/auth/auth.css",
     "/css/public/teacher.css": "/css/public/teacher.css",

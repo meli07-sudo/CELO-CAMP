@@ -267,9 +267,51 @@ a:hover {
 }
 
 .wrapper {
-  width: clamp(20rem, 85vw, 30rem);
+  width: clamp(20rem, 85vw, 27rem);
   border-radius: 1rem;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+}
+.wrapper .form-group {
+  margin: 0 auto;
+  width: 90%;
+}
+.wrapper .form-group .form-field {
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+  -moz-column-gap: 0.1rem;
+       column-gap: 0.1rem;
+  padding: 0.7rem 1rem;
+  background-color: #d9d9d9;
+}
+.wrapper .form-group .form-field label i {
+  color: #888888;
+}
+.wrapper .form-group .form-field.password {
+  grid-template-columns: 2rem 1fr 2rem;
+}
+.wrapper .form-group .form-field.password i.fas.fa-eye,
+.wrapper .form-group .form-field.password i.fas.fa-eye-slash {
+  grid-column: 3/4;
+  width: 100%;
+}
+.wrapper .form-group .form-field label {
+  grid-column: 1/2;
+  width: 100%;
+}
+.wrapper .form-group .form-field label {
+  grid-column: 1/2;
+  width: 100%;
+}
+.wrapper .form-group .form-field input {
+  grid-column: 2/3;
+  width: 100%;
+  font-size: 1.1rem;
+}
+.wrapper .form-group span.text-danger {
+  line-height: 0.8rem;
+  font-size: 0.7rem;
+  bottom: -1rem;
+  left: 1rem;
 }
